@@ -1,5 +1,7 @@
 Homework:
 
+Seminar 0:
+
 What is large-scale requirements engineering?
 
 The explosion of new ideas is particularly an evitable part of a company that operates in Market Driven Requirements Engineering (MRDE). Hence there is a need for these companies to often manage hundreds and thousands of requirements arriving from multiple sources. These requirements are inter-related with increasing number of customers, end users, developers, subcontractors, product features, and external system interfaces collectively known as stakeholders. This context is defined as large-scale requirements engineering (LSRE) or very large-scale requirements engineering  (VLSRE)[1].
@@ -60,6 +62,23 @@ References:
 [2]	K. Wnuk, J. Kabbedijk, S. Brinkkemper, B. Regnell, and D. Callele, “Exploring factors affecting decision outcome and lead time in large-scale requirements engineering,” J. Softw. Evol. Process, vol. 27, no. 9, pp. 647–73, Sep. 2015.
 [3]	B. Regnell, R. B. Svensson, and K. Wnuk, “Can we beat the complexity of very large-scale requirements engineering?,” in Requirements Engineering: Foundation for Software Quality. 14th International Working Conference, REFSQ 2008, 16-17 June 2008, 2008, pp. 123–8.
 [4]	G. Ruhe and M. O. Saliu, “The art and science of software release planning,” IEEE Softw., vol. 22, no. 6, pp. 47–53, Nov. 2005.
+
+
+
+Seminar 2: 
+
+Boston Matrix (four-quadrant analysis or BCG matrix):  It is an analysis method proposed by the Boston Consulting Group which is one of the large consulting firms in the United States. It is mainly based on the idea that the company’s business units are classified into four categories based on the combinations of market growth and market share relative to the largest competitor. Market share represents the percentage of the total market achieved by the organisation which is measured in terms of revenue or unit volume and market growth refers to the attractiveness or demand of a market. The four categories of Boston Matrix are as follows:
+1.  Skinny dog type (Dog), namely a lower market growth and low market share rate products and thus they tend to absorb cash rather than generating it and are developing in a slow growing industry.
+2. Taurus type (Cash Cow), namely a lower market growth and high market share of products and hence exhibit a return on assets that is greater than the market growth rate, and thus generate more cash than they consume. So this type of business units should be milked, extracting high profits by investing fewer amounts. This helps to provide the cash required to turn the question marks into stars and many other financial needs of the organisation.
+3. Problem children (Question mark), namely higher market growth and low market share of products and hence they grow rapidly by consuming high amounts and retrieving low profits. Hence it has the potential to gain market share and become a star, and eventually a cash cow when the market growth slows. So there is a need to analyze them carefully to decide whether they are worth the investment required to increase market share and hence named as question mark.
+4. Star-type (Star), namely higher market growth and high market share of products and hence it generates large amounts of cash and also consume large amounts because of their high growth rate. If a star can maintain its large market share, it will become a cash cow when the market growth rate declines. The portfolio of a diversified company always should have the stars that will become future cash cows.
+The main purpose of this matrix is to help the companies to decide which of their units they should keep, where they should invest further and which ones should they consider getting rid of. But it has its own limitations and is listed below.
+Disadvantages:
+1. Focussing only on market growth and market share can encourage organisations to disregard other key factors that define their competitive position. In addition, they need to take into account interdependencies between your products and be aware of the merits of differentiation as a way to gain a competitive edge. 
+2. The framework assumes that each business unit is independent of the others. In some cases, a business unit that is a "dog" may be helping other business units gain a competitive advantage.
+3. The Boston Matrix assumes that the higher your market share the more profitable your product or business unit will be. It also rejects the possibility that a niche product with a low market share can be profitable. In some cases of reality, dogs offer more profits than cash cows.
+
+
 
 
 
