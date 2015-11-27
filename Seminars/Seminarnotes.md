@@ -58,7 +58,27 @@ For the feature realization, resource constraints were considered and capacities
 
 
 
- Summary of article [“R: Berntsson Svensson, B. Regnell (2015) “A case study evaluation of the guideline-supported QUPER model for elicitation of quality requirements”, 21st International Working Conference on Requirements Engineering: Foundation for Software Quality (REFSQ’15),Essen, Germany, pp. 230-246, 2015”].
+Summary of article [5]
+The authors of this article argue that in market-driven product development and release planning, it is important to find the balance between competing quality requirements. Lack of good release planning may result in unsatisfied customers and market loss. Very less research is looked into prioritization of the quality requirements in release planning which is very important to be considered especially in the case of market-driven product development. Hence this paper presents a quality performance (QUPER) model which supports release planning and road mapping of quality requirements and it also presents one case of QUPER tailoring, implementation, and most important evaluation, conducted at Sony Ericsson. The main purpose of this is to investigate the implementation of QUPER in industry.
+This paper includes a detailed explanation of QUPER model. This model was developed in three main steps: 
+
+ Step 1: Problem definition. Aim of this stage is to understand different requirement decision scenarios and the need for a cost-benefit model including quality aspects to support road mapping and scoping was identified.
+Step 2: Model definition. This is based on the input from step 1. And it includes three types of views.
+ 1. The QUPER benefit view: It includes three breakpoints indicating principal changes in the benefit level with respect to user experience and market value. 
+i) The utility breakpoint represents the border between a quality level useless and useful quality.
+ii) The differentiation breakpoint represents the shift from useful to competitive quality, which makes them have a competitive market proposition.
+iii) The saturation breakpoint imply a change in quality level from competitive to excessive quality, where higher quality levels have no practical impact on the benefit in the particular usage context considered.
+2. The QUPER cost view includes the notation of cost barriers that represents the non-linear relation between quality and costs.
+3. The QUPER roadmap view combines the benefit and cost views by position the breakpoints and barrier together ordered on the same scale.
+Step 3: Model validation. This includes evaluation of the model which is generally carried out through interviews and expert decisions.
+The implementation of these steps is carried out in Ericsson and evaluation is done for only benefit view because it is considered the most important part of the QUPER model for Sony Ericsson to start with. This is done in 4 steps
+ 1. Define quality aspects.
+2. Estimate your product’s current quality and the competing products’ quality.
+3. For each quality aspect and for each relevant qualifier, estimate the breakpoints.
+4. Estimate candidate targets and discuss and decide on actual targets for coming releases.
+And this paper includes detailed description of practical application of QUPER model by conducting interviews and involving experts of the company. The results indicate that the quality performance model provides helpful information about quality requirements in release planning.
+
+Summary of article [6]
 The authors of this paper argue that the release planning is very important for market-driven software product development organisations operating on a competitive open market. And it is more advantageous when the level of quality of the product is compared with its competitors’ products and hence quality requirements can be seen as a key competitive advantage. There are several methods and techniques like Release Planning Prototype and EVOLVE, which use generic algorithms to resolve the release planning issue but it is not worthwhile if the input data is highly uncertain. And according to surveys, only two strategic planning methods addressed quality constraints. 
 1. Win-Win model which is a quantitative model and addresses effort and time constraints but not the quality level of QR.
 2. QUPER is the only method which addresses quality and cost constraints of QR
@@ -67,21 +87,11 @@ This paper includes
 2. An added step which includes how to incorporate cost dependencies between quality requirements. The reason to add this step is that dependencies may have a major impact on the estimated cost for other QR. The cost to improve the quality level for one QR may imply an improved level of quality for other QR. This may lead to a change of other QR cost barriers and which QR to select for the coming release. Hence there is a need to incorporate cost dependencies in QUPER model.
 3. Two evaluations of complete version of QUPER model which helps to evaluate QUPER’s applicability.
 
-QUPER model:
 Two main factors motivated the creation and evolvement of QUPER model is
 1. Direct need identified in industry.
 2. A model for supported release planning of QR was not found in the literature.
 
-The QUPER model is based on the observations that quality is continuous and non linear. It basically includes three types of views [5]. 
-
-1. The QUPER benefit view: It includes three breakpoints indicating principal changes in the benefit level with respect to user experience and market value. 
-i) The utility breakpoint represents the border between a quality level useless and useful quality.
-ii) The differentiation breakpoint represents the shift from useful to competitive quality, which makes them have a competitive market proposition.
-iii) The saturation breakpoint imply a change in quality level from competitive to excessive quality, where higher quality levels have no practical impact on the benefit in the particular usage context considered.
-2. The QUPER cost view includes the notation of cost barriers that represents the non-linear relation between quality and costs.
-3. The QUPER roadmap view combines the benefit and cost views by position the breakpoints and barrier together ordered on the same scale.
-
-In this paper a detailed guidelines of application of QUPER model is presented in 7 steps by considering an example of quality requirements of a mobile TV. Those steps include 
+In this paper a detailed guidelines of application of QUPER model is presented in 7 steps by considering an example of quality requirements of a mobile TV.  And all of these steps are based on the description of the QUPER model discussed in [5]. Those steps include 
 1. Identify candidate QR.
 2. Define scale and unit.
 3. Identify reference levels.
@@ -91,6 +101,9 @@ In this paper a detailed guidelines of application of QUPER model is presented i
 7. Identify cost dependencies.
 Each of these steps is clearly explained with figures and thus it helps to know the practical view of QUPER model. Also the complete version of QUPER was evaluated in industry at one case company with 24 industry professionals using real QR. Hence through this paper, we can gain the practical knowledge of applying this model and also helps to understand the problems that may arise while applying this model practically.
 
+The main difference between article [5] and [6] is that the authors of [6] included the cost dependencies among QR and both the articles helps to consider quality requirements and also describe the practical application of QUPER model in different companies.
+
+
 References:
 
 [1]	S. Aaramaa, T. Kinnunen, J. Lehto, and N. Tausan, “Managing constant flow of requirements: screening challenges in very large-scale requirements engineering,” in Product-Focused Software Process Improvement. 14th International Conference, PROFES 2013, 12-14 June 2013, pp. 123–37.
@@ -98,6 +111,7 @@ References:
 [3]	B. Regnell, R. B. Svensson, and K. Wnuk, “Can we beat the complexity of very large-scale requirements engineering?,” in Requirements Engineering: Foundation for Software Quality. 14th International Working Conference, REFSQ 2008, 16-17 June 2008, pp. 123–8.
 [4]	G. Ruhe and M. O. Saliu, “The art and science of software release planning,” IEEE Softw., vol. 22, no. 6, pp. 47–53, Nov. 2005.
 [5]     R. B. Svensson, T. Olsson, and B.Regnell, “Introducing support for release planning of quality requirements - an industrial evaluation of the QUPER model,” in 2008 Second International Workshop on Software Product Management, 9 Sept. 2008, pp. 1-9.
+[6]     R: Berntsson Svensson, B. Regnell (2015) “A case study evaluation of the guideline-supported QUPER model for elicitation of quality requirements”, 21st International Working Conference on Requirements Engineering: Foundation for Software Quality (REFSQ’15),Essen, Germany, pp. 230-246, 2015.
 
 
 Seminar 2: 
