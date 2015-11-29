@@ -56,8 +56,6 @@ In this paper, a formalization method is presented by integrating both human and
 2) Precedence relation (P) in which features are released in certain order.
 For the feature realization, resource constraints were considered and capacities available for each resource type and proposed an equation that must be satisfied for all the releases and resource types. And as the stakeholders are very important in planning of any product, they are considered based on their importance as per an ordinal nine-point scale. Also the feature prioritization is considered in relation to value and urgency using nine-point scale. Two releases are considered in this paper and each stakeholder has nine votes for each feature and has three possible options. Based on these, few assumptions are made and according to them the objective is set as to maximize F(x) function and dependency constraints are also given. As this formulation constitutes a specialized integer linear programming problem and all the objectives stated are linear functions and decision variables are integers, it differs from simple spreadsheet calculations and support further a series of elementary arithmetical operations.  This approach finally formulates a series of problems as variants and these are solved to generate set of qualified alternative solutions. And a human decision maker such as project manager based on his/her experience and familiarity evaluates these solutions. Hence this method includes both human intelligence and computational intelligence that offers a high-level framework. And this paper further extended the approach by performing a variety of tasks during three phases of the planning process. And a sample problem is explained clearly to illustrate the proposed approach.
 
-
-
 Summary of article [5]
 The authors of this article argue that in market-driven product development and release planning, it is important to find the balance between competing quality requirements. Lack of good release planning may result in unsatisfied customers and market loss. Very less research is looked into prioritization of the quality requirements in release planning which is very important to be considered especially in the case of market-driven product development. Hence this paper presents a quality performance (QUPER) model which supports release planning and road mapping of quality requirements and it also presents one case of QUPER tailoring, implementation, and most important evaluation, conducted at Sony Ericsson. The main purpose of this is to investigate the implementation of QUPER in industry.
 This paper includes a detailed explanation of QUPER model. This model was developed in three main steps: 
@@ -103,6 +101,38 @@ Each of these steps is clearly explained with figures and thus it helps to know 
 
 The main difference between article [5] and [6] is that the authors of [6] included the cost dependencies among QR and both the articles helps to consider quality requirements and also describe the practical application of QUPER model in different companies.
 
+Summary of article [7]:
+
+The authors of this paper mainly concentrated on the market-driven requirements engineering and describes an industrial process called REPEAT (Requirement Engineering ProcESs At Telelogic) which incorporates continuous requirements elicitation and prioritisation together with expert cost estimation as a basis for release planning. This process is enacted by the Swedish CASE-tool vendor Telelogic AB which is a fast growing company with 180 employees and more than 600 worldwide customers. This process is used in-house at Telelogic for eliciting, selecting and maintaining requirements on the product family called Telelogic Tau which is a software development environment for real-time systems.
+
+REPEAT process:
+REPEAT is a process which manages the requirements throughout a release cycle and covers important requirements engineering activities such as requirement elicitation, documentation and validation. The actors involved in this process include:
+1. Requirements Management Group (RQMG)
+2. Issuer
+3. Customers and users
+4. Requirements teams
+5. Construction team
+6. Test team
+7. Expert and 
+8. Requirements Database (RQDB)
+The RQMG group with the support of experts is responsible for deciding on requirement state transitions. The states are 
+1. New (Requirement is issued and given an initial priority)
+2. Assigned (Requirement is assigned to an expert for classification)
+3. Classified (Rough estimate of cost and impact are attached)
+4. Rejected (End-state indicating requirement has been rejected)
+5. Selected (Requirement is selected for implementation)
+6. Applied (End-state indicating requirement is implemented and verified) 
+REPEAT is instantised for each release and each instance has duration of 14 months. A new product version is released at fixed dates for every 6 months. Each REPEAT instance has five different phases separated by milestones. Different phases are explained as follows. 
+1. Elicitation phase: It includes two activities collection and classification. The output of this phase is that the priority, cost and impact estimates are given to the requirements and it enters the classified state and will be further treated in the next phase.
+2. Selection phase: The main goals of this phase are to select which requirements to implement in current release, to specify the requirements in more detail and to validate the requirements document. And the output is a requirements document which includes a selected list, detailed specification of all requirements and a non selected list which includes requirements that are postponed to next release.
+3. Change management, construction, verification and conclusion: During change management, the RQMG takes decisions on changing the requirement document caused by new incoming requirements. Feedback is given to the issuer on the decisions taken to the change in requirements. Construction includes iterative design and implementation process with a weekly build and unit test. In verification activity, requirements in selected list are verified against requirements document using requirement based testing method. And then the conclusion phase is entered where metrics are collected and final report is written.
+
+Implementation of this process resulted success rates to the company due to its detailed specification of requirements, classification activity, prioritization etc. However there are many challenges that are identified by the company. They include
+1. Overload control
+2. Connecting fragments
+3. Bridging the chasm between elicitation and selection
+4. Long-term product strategy for a diversity of market segments
+To meet the above challenges and based on the expert surveys, case studies and experiments REPEAT-2 is introduced and the two main techniques which supports this introduction are hierarchical use case modelling and cost value use case prioritization.
 
 References:
 
@@ -112,7 +142,7 @@ References:
 [4]	G. Ruhe and M. O. Saliu, “The art and science of software release planning,” IEEE Softw., vol. 22, no. 6, pp. 47–53, Nov. 2005.
 [5]     R. B. Svensson, T. Olsson, and B.Regnell, “Introducing support for release planning of quality requirements - an industrial evaluation of the QUPER model,” in 2008 Second International Workshop on Software Product Management, 9 Sept. 2008, pp. 1-9.
 [6]     R: Berntsson Svensson, B. Regnell (2015) “A case study evaluation of the guideline-supported QUPER model for elicitation of quality requirements”, 21st International Working Conference on Requirements Engineering: Foundation for Software Quality (REFSQ’15),Essen, Germany, pp. 230-246, 2015.
-
+[7]	B. Regnell, P. Beremark, and O. Eklundh, “A market-driven requirements engineering process: results from an industrial process improvement programme,” in Conference on European Industrial Requirements Engineering (CEIRE ’98), 19-20 Oct. 1998, vol. 3, pp. 121–9.
 
 Seminar 2: 
 
