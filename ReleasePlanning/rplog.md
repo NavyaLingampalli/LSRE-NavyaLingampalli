@@ -44,4 +44,3 @@ Issue: Market (We are currently focusing on the Swedish market, but will extend 
 Comment: Educational systems may vary from continent to continent, so the present system may not be suitable and acceptable in other continents?
 
 
-
