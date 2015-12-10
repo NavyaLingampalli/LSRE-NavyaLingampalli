@@ -12,7 +12,7 @@ Then I have gone through all the given 73 issues and tried to understand them. I
 
 Week 47:
 
-I have gone through all the issues in detail and identified some of the issues which are not clearly understood by me. To make them clear, I started commenting on the issues. 
+I have gone through all the issues in detail and identified some of the issues which are not clearly understood by me. To make them clear, I started commenting on the issues.And some of issues can be enhanced further by adding sub features. Suggestions for these issues are also incuded in the comments. 
 
 Issue number: 35
 
