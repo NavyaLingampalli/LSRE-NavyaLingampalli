@@ -162,6 +162,11 @@ Seminar 1:
 GAP analysis: 
 It is a process through which a company compares its actual performance with the expected performance in order to determine whether the company is meeting its expectations and utilising the resources effectively.
 It also provides a way to identify how available software services (as-is) may be assembled within the newly conceived and redefined business models (to-be) to better meet the organization’s goals. 
+The basic steps to perform GAP analysis are:
+1. Identifying the future state to which the company’s performance should be expected to reach.
+2. Analyzing company’s current situation. This can be done effectively through brain storming workshops, one-to-one interviews, reviewing documents etc.
+3. Identifying how to bridge the gap between current state and expected future state.
+
 
 
 
