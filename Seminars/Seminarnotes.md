@@ -175,7 +175,7 @@ Description of gap: After identifying the current situation and future objective
 
 Bridging the gap: It includes listing of all possible solutions that can be implemented in order to reduce the gap between current state and future state. These solutions must be specific and connected to the factors listed in gap description.
 
-There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT analysis, Nadler-Tushman model etc.  
+There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT analysis, Nadler-Tushman model etc. The selection of a particular tool by a company depends on specific goals and objectives of that company. 
  
 
 
