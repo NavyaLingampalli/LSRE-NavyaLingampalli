@@ -158,14 +158,29 @@ Disadvantages:
 3. The Boston Matrix assumes that the higher your market share the more profitable your product or business unit will be. It also rejects the possibility that a niche product with a low market share can be profitable. In some cases of reality, dogs offer more profits than cash cows.
 
 Seminar 1:
-
 GAP analysis: 
 It is a process through which a company compares its actual performance with the expected performance in order to determine whether the company is meeting its expectations and utilising the resources effectively.
-It also provides a way to identify how available software services (as-is) may be assembled within the newly conceived and redefined business models (to-be) to better meet the organization’s goals. 
-The basic steps to perform GAP analysis are:
+It also provides a way to identify how available software services (as-is) may be assembled within the newly conceived and redefined business models (to-be) to better meet the organization’s goals . This can be conducted in different perspectives such as organization, business processes, information technology etc.
+
+GAP analysis templates generally have the template with these three steps. The basic steps to perform GAP analysis are:
 1. Identifying the future state to which the company’s performance should be expected to reach.
-2. Analyzing company’s current situation. This can be done effectively through brain storming workshops, one-to-one interviews, reviewing documents etc.
+2. Analyzing company’s current situation (includes attributes, competencies, and performance levels). 
 3. Identifying how to bridge the gap between current state and expected future state.
+The assessment of the current situation and future situation can be both qualitative and quantitative.
+GAP analysis templates generally have the template with these three steps.
+Future state: It includes the target condition that a company wants to achieve. In general, this section is drafted in quantifiable terms such as aiming to increase number of customer calls by a certain percentage within specific period of time. 
+Current state: Identifying the current situation of a company can be effectively done through brain storming workshops, one-to-one interviews, reviewing documents, observing project activities such as design work shops etc. This analysis can be quantitative such as looking at the number of calls answered within in a specific time period, or it can be qualitative such as examining the state of diversity in work place.
+
+Description of gap: After identifying the current situation and future objectives of a company and if there is a gap, its description which includes what constitutes the gap and the factors that contribute to it. These descriptions can also be qualitative and quantitative.
+
+Bridging the gap: It includes listing of all possible solutions that can be implemented in order to reduce the gap between current state and future state. These solutions must be specific and connected to the factors listed in gap description.
+
+There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT analysis, Nadler-Tushman model etc.  
+ 
+
+
+
+
 
 
 
