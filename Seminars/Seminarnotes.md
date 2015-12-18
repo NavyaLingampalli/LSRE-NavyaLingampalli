@@ -176,9 +176,15 @@ Description of gap: After identifying the current situation and future objective
 Bridging the gap: It includes listing of all possible solutions that can be implemented in order to reduce the gap between current state and future state. These solutions must be specific and connected to the factors listed in gap description.
 
 There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT analysis, Nadler-Tushman model etc. The selection of a particular tool by a company depends on specific goals and objectives of that company. 
- 
+
+Road mapping:
+Road map is a specialised type of strategic plan that outlines activities an organisation can undertake over specified time frames to achieve stated goals and outcomes. And road mapping is a process through which a road map is created, implemented, monitored and updated if necessary.
+Technology road mapping is originally developed by Motorola in 1970s in order to support improved alignment between technology and product development. This approach facilitates the communication across functional and organizational boundaries. Road mapping can be performed at either of the two levels, industry or corporate [2]. 
+
 References:
-[1] J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
+[1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
+[2]	Sungjoo Lee and Yongtae Park, “Customization of technology roadmaps according to roadmapping purposes: Overall process and detailed modules,” Technol. Forecast. Soc. Change, vol. 72, no. 5, pp. 567–83, Jun. 2005.
+
 
 
 
