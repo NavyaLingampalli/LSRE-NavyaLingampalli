@@ -167,7 +167,7 @@ GAP analysis templates generally have the template with these three steps. The b
 2. Analyzing company’s current situation (includes attributes, competencies, and performance levels). 
 3. Identifying how to bridge the gap between current state and expected future state.
 The assessment of the current situation and future situation can be both qualitative and quantitative.
-GAP analysis templates generally have the template with these three steps.
+
 Future state: It includes the target condition that a company wants to achieve. In general, this section is drafted in quantifiable terms such as aiming to increase number of customer calls by a certain percentage within specific period of time. 
 Current state: Identifying the current situation of a company can be effectively done through brain storming workshops, one-to-one interviews, reviewing documents, observing project activities such as design work shops etc. This analysis can be quantitative such as looking at the number of calls answered within in a specific time period, or it can be qualitative such as examining the state of diversity in work place.
 
@@ -179,7 +179,11 @@ There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT
 
 Road mapping:
 Road map is a specialised type of strategic plan that outlines activities an organisation can undertake over specified time frames to achieve stated goals and outcomes. And road mapping is a process through which a road map is created, implemented, monitored and updated if necessary.
-Technology road mapping is originally developed by Motorola in 1970s in order to support improved alignment between technology and product development. This approach facilitates the communication across functional and organizational boundaries. Road mapping can be performed at either of the two levels, industry or corporate [2]. 
+ Technology road mapping is originally developed by Motorola in 1970s in order to support improved alignment between technology and product development. This approach facilitates the communication across functional and organizational boundaries. Road mapping can be performed at either of the two levels, industry or corporate [2]. 
+On an average, it takes 6 to 18 months to develop a roadmap. The process of road mapping includes two types of activities expert judgement and consensus, and data analysis and four phases namely planning and preparation, visioning, roadmap development (6 to 8 months) and roadmap implementation (1-5 years recurring).
+Expert judgement and consensus activities: 
+These activities form the core of road mapping process and are conducted through workshops. These workshops include experts of different disciplines like technology, policy, finance etc. Expert judgement provides a way to make choices among possible scenarios revealed by data and analysis activities. And building consensus across these experts helps to generate strong support for the road map. 
+Data and analysis activities: To achieve the roadmap goals, expert judgement should be supported by data and analysis. These activities can be accomplished by a team of analysts and technology experts. The extent of data and analysis activities will vary depending on the amount of available data, time and resources.
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
