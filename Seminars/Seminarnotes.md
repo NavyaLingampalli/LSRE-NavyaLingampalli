@@ -160,7 +160,7 @@ Disadvantages:
 Seminar 1:
 GAP analysis: 
 It is a process through which a company compares its actual performance with the expected performance in order to determine whether the company is meeting its expectations and utilising the resources effectively.
-It also provides a way to identify how available software services (as-is) may be assembled within the newly conceived and redefined business models (to-be) to better meet the organization’s goals . This can be conducted in different perspectives such as organization, business processes, information technology etc.
+It also provides a way to identify how available software services (as-is) may be assembled within the newly conceived and redefined business models (to-be) to better meet the organization’s goals [1] . This can be conducted in different perspectives such as organization, business processes, information technology etc.
 
 GAP analysis templates generally have the template with these three steps. The basic steps to perform GAP analysis are:
 1. Identifying the future state to which the company’s performance should be expected to reach.
@@ -177,7 +177,8 @@ Bridging the gap: It includes listing of all possible solutions that can be impl
 
 There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT analysis, Nadler-Tushman model etc. The selection of a particular tool by a company depends on specific goals and objectives of that company. 
  
-
+References:
+[1] J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
 
 
 
