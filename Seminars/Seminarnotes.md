@@ -186,6 +186,8 @@ These activities form the core of road mapping process and are conducted through
 Data and analysis activities: To achieve the roadmap goals, expert judgement should be supported by data and analysis. These activities can be accomplished by a team of analysts and technology experts. The extent of data and analysis activities will vary depending on the amount of available data, time and resources.
 Phase 1-Planning and preparation:  
 In this phase, the organization undertaking the road mapping initiative must answer several questions related to the plan of road map. The answers for these questions can be obtained through some actions such as ensuring leadership commitment, appointing a steering committee, developing a statement of purpose and scope, conducting base line research, selecting and engaging stakeholders and experts early in the process.
+Phase 2- Visioning
+Setting a vision is the process of defining the desired pathway for a technology’s deployment. This process includes important tools such as modelling and scenario analysis which are used to define possible future states. Road mapping often includes vision workshops where leading experts will meet and discuss about desired future state of the company and common understanding is established. The participants of a typical workshop include leading researchers, government leaders and senior industry representatives.
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
