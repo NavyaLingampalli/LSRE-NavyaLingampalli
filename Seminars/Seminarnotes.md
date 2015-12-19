@@ -184,6 +184,8 @@ On an average, it takes 6 to 18 months to develop a roadmap. The process of road
 Expert judgement and consensus activities: 
 These activities form the core of road mapping process and are conducted through workshops. These workshops include experts of different disciplines like technology, policy, finance etc. Expert judgement provides a way to make choices among possible scenarios revealed by data and analysis activities. And building consensus across these experts helps to generate strong support for the road map. 
 Data and analysis activities: To achieve the roadmap goals, expert judgement should be supported by data and analysis. These activities can be accomplished by a team of analysts and technology experts. The extent of data and analysis activities will vary depending on the amount of available data, time and resources.
+Phase 1-Planning and preparation:  
+In this phase, the organization undertaking the road mapping initiative must answer several questions related to the plan of road map. The answers for these questions can be obtained through some actions such as ensuring leadership commitment, appointing a steering committee, developing a statement of purpose and scope, conducting base line research, selecting and engaging stakeholders and experts early in the process.
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
