@@ -40,7 +40,7 @@ Strategic release planning is one of the most important parts of the requirement
 2.	Systematic planning
 These two approaches are discussed in detail in the summarization of article [4] below.
 
-	Summarization of [4] (Art and science of software release planning):
+Summarization of [4] (G. Ruhe and M. O. Saliu, “The art and science of software release planning,” IEEE Softw., vol. 22, no. 6, pp. 47–53, Nov. 2005.):
 
 The authors of this paper mainly concentrated on the advantages of release planning, what should be contained in release planning, difficulties in creating it and presented two approaches of RP namely 
 
@@ -56,7 +56,7 @@ In this paper, a formalization method is presented by integrating both human and
 2) Precedence relation (P) in which features are released in certain order.
 For the feature realization, resource constraints were considered and capacities available for each resource type and proposed an equation that must be satisfied for all the releases and resource types. And as the stakeholders are very important in planning of any product, they are considered based on their importance as per an ordinal nine-point scale. Also the feature prioritization is considered in relation to value and urgency using nine-point scale. Two releases are considered in this paper and each stakeholder has nine votes for each feature and has three possible options. Based on these, few assumptions are made and according to them the objective is set as to maximize F(x) function and dependency constraints are also given. As this formulation constitutes a specialized integer linear programming problem and all the objectives stated are linear functions and decision variables are integers, it differs from simple spreadsheet calculations and support further a series of elementary arithmetical operations.  This approach finally formulates a series of problems as variants and these are solved to generate set of qualified alternative solutions. And a human decision maker such as project manager based on his/her experience and familiarity evaluates these solutions. Hence this method includes both human intelligence and computational intelligence that offers a high-level framework. And this paper further extended the approach by performing a variety of tasks during three phases of the planning process. And a sample problem is explained clearly to illustrate the proposed approach.
 
-Summary of article [5]
+Summary of article [5] (R. B. Svensson, T. Olsson, and B.Regnell, “Introducing support for release planning of quality requirements - an industrial evaluation of the QUPER model,” in 2008 Second International Workshop on Software Product Management, 9 Sept. 2008, pp. 1-9.)
 The authors of this article argue that in market-driven product development and release planning, it is important to find the balance between competing quality requirements. Lack of good release planning may result in unsatisfied customers and market loss. Very less research is looked into prioritization of the quality requirements in release planning which is very important to be considered especially in the case of market-driven product development. Hence this paper presents a quality performance (QUPER) model which supports release planning and road mapping of quality requirements and it also presents one case of QUPER tailoring, implementation, and most important evaluation, conducted at Sony Ericsson. The main purpose of this is to investigate the implementation of QUPER in industry.
 This paper includes a detailed explanation of QUPER model. This model was developed in three main steps: 
 
@@ -76,7 +76,7 @@ The implementation of these steps is carried out in Ericsson and evaluation is d
 4. Estimate candidate targets and discuss and decide on actual targets for coming releases.
 And this paper includes detailed description of practical application of QUPER model by conducting interviews and involving experts of the company. The results indicate that the quality performance model provides helpful information about quality requirements in release planning.
 
-Summary of article [6]
+Summary of article [6] (R: Berntsson Svensson, B. Regnell (2015) “A case study evaluation of the guideline-supported QUPER model for elicitation of quality requirements”, 21st International Working Conference on Requirements Engineering: Foundation for Software Quality (REFSQ’15),Essen, Germany, pp. 230-246, 2015.)
 The authors of this paper argue that the release planning is very important for market-driven software product development organisations operating on a competitive open market. And it is more advantageous when the level of quality of the product is compared with its competitors’ products and hence quality requirements can be seen as a key competitive advantage. There are several methods and techniques like Release Planning Prototype and EVOLVE, which use generic algorithms to resolve the release planning issue but it is not worthwhile if the input data is highly uncertain. And according to surveys, only two strategic planning methods addressed quality constraints. 
 1. Win-Win model which is a quantitative model and addresses effort and time constraints but not the quality level of QR.
 2. QUPER is the only method which addresses quality and cost constraints of QR
@@ -101,7 +101,7 @@ Each of these steps is clearly explained with figures and thus it helps to know 
 
 The main difference between article [5] and [6] is that the authors of [6] included the cost dependencies among QR and both the articles helps to consider quality requirements and also describe the practical application of QUPER model in different companies.
 
-Summary of article [7]:
+Summary of article [7] (B. Regnell, P. Beremark, and O. Eklundh, “A market-driven requirements engineering process: results from an industrial process improvement programme,” in Conference on European Industrial Requirements Engineering (CEIRE ’98), 19-20 Oct. 1998, vol. 3, pp. 121–9.)
 
 The authors of this paper mainly concentrated on the market-driven requirements engineering and describes an industrial process called REPEAT (Requirement Engineering ProcESs At Telelogic) which incorporates continuous requirements elicitation and prioritisation together with expert cost estimation as a basis for release planning. This process is enacted by the Swedish CASE-tool vendor Telelogic AB which is a fast growing company with 180 employees and more than 600 worldwide customers. This process is used in-house at Telelogic for eliciting, selecting and maintaining requirements on the product family called Telelogic Tau which is a software development environment for real-time systems.
 
@@ -135,14 +135,9 @@ Implementation of this process resulted success rates to the company due to its 
 To meet the above challenges and based on the expert surveys, case studies and experiments REPEAT-2 is introduced and the two main techniques which supports this introduction are hierarchical use case modelling and cost value use case prioritization.
 
 References:
-
 [1]	S. Aaramaa, T. Kinnunen, J. Lehto, and N. Tausan, “Managing constant flow of requirements: screening challenges in very large-scale requirements engineering,” in Product-Focused Software Process Improvement. 14th International Conference, PROFES 2013, 12-14 June 2013, pp. 123–37.
 [2]	K. Wnuk, J. Kabbedijk, S. Brinkkemper, B. Regnell, and D. Callele, “Exploring factors affecting decision outcome and lead time in large-scale requirements engineering,” J. Softw. Evol. Process, vol. 27, no. 9, pp. 647–73, Sep. 2015.
 [3]	B. Regnell, R. B. Svensson, and K. Wnuk, “Can we beat the complexity of very large-scale requirements engineering?,” in Requirements Engineering: Foundation for Software Quality. 14th International Working Conference, REFSQ 2008, 16-17 June 2008, pp. 123–8.
-[4]	G. Ruhe and M. O. Saliu, “The art and science of software release planning,” IEEE Softw., vol. 22, no. 6, pp. 47–53, Nov. 2005.
-[5]     R. B. Svensson, T. Olsson, and B.Regnell, “Introducing support for release planning of quality requirements - an industrial evaluation of the QUPER model,” in 2008 Second International Workshop on Software Product Management, 9 Sept. 2008, pp. 1-9.
-[6]     R: Berntsson Svensson, B. Regnell (2015) “A case study evaluation of the guideline-supported QUPER model for elicitation of quality requirements”, 21st International Working Conference on Requirements Engineering: Foundation for Software Quality (REFSQ’15),Essen, Germany, pp. 230-246, 2015.
-[7]	B. Regnell, P. Beremark, and O. Eklundh, “A market-driven requirements engineering process: results from an industrial process improvement programme,” in Conference on European Industrial Requirements Engineering (CEIRE ’98), 19-20 Oct. 1998, vol. 3, pp. 121–9.
 
 Seminar 2: 
 
