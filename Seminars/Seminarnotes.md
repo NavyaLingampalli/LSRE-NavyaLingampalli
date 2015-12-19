@@ -174,7 +174,7 @@ There are many tools to perform GAP analysis such as McKinsey 7S Framework, SWOT
 
 Road mapping:
 Road map is a specialised type of strategic plan that outlines activities an organisation can undertake over specified time frames to achieve stated goals and outcomes. And road mapping is a process through which a road map is created, implemented, monitored and updated if necessary.
- Technology road mapping is originally developed by Motorola in 1970s in order to support improved alignment between technology and product development. This approach facilitates the communication across functional and organizational boundaries. Road mapping can be performed at either of the two levels, industry or corporate [2]. 
+ Technology road mapping is originally developed by Motorola in 1970s in order to support improved alignment between technology and product development. This approach facilitates the communication across functional and organizational boundaries. Road mapping can be performed at either of the two levels, industry or corporate [2]. Road mapping in the case of large scale requirements should be planned properly in order to achieve better results. The general process of road mapping is as discussed below and this is well suited for large scale projects. 
 On an average, it takes 6 to 18 months to develop a roadmap. The process of road mapping includes two types of activities expert judgement and consensus, and data analysis and four phases namely planning and preparation, visioning, roadmap development (6 to 8 months) and roadmap implementation (1-5 years recurring).
 Expert judgement and consensus activities: 
 These activities form the core of road mapping process and are conducted through workshops. These workshops include experts of different disciplines like technology, policy, finance etc. Expert judgement provides a way to make choices among possible scenarios revealed by data and analysis activities. And building consensus across these experts helps to generate strong support for the road map. 
@@ -183,6 +183,10 @@ Phase 1-Planning and preparation:
 In this phase, the organization undertaking the road mapping initiative must answer several questions related to the plan of road map. The answers for these questions can be obtained through some actions such as ensuring leadership commitment, appointing a steering committee, developing a statement of purpose and scope, conducting base line research, selecting and engaging stakeholders and experts early in the process.
 Phase 2- Visioning
 Setting a vision is the process of defining the desired pathway for a technology’s deployment. This process includes important tools such as modelling and scenario analysis which are used to define possible future states. Road mapping often includes vision workshops where leading experts will meet and discuss about desired future state of the company and common understanding is established. The participants of a typical workshop include leading researchers, government leaders and senior industry representatives.
+Phase 3-Roadmap development
+The roadmap development phase begins once the vision is established.  This phase includes some important activities such as holding road map workshops, preparing the draft road map document, conducting a roadmap review.  
+Phase 4- Road map implementation and adjustment 
+This phase includes two steps launching the road map and putting in place tracking systems. The final road map outlines a set of priorities such as research projects, technology demonstrations, policy advances, regulatory changes and financial commitments. It also includes monitoring the progress and adjusting the road map.    
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
