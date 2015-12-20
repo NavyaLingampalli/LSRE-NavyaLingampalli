@@ -206,6 +206,15 @@ in-STEP BLUE
 VersionOne
 Blueprint
 
+Tools for agile requirements management:
+HP Agile Manager
+Jira Agile
+Mingle 
+VersionOne
+Rally
+AgileZen
+
+
 
 
 
