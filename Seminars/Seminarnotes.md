@@ -192,6 +192,15 @@ References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
 [2]	Sungjoo Lee and Yongtae Park, “Customization of technology roadmaps according to roadmapping purposes: Overall process and detailed modules,” Technol. Forecast. Soc. Change, vol. 72, no. 5, pp. 567–83, Jun. 2005.
 
+Seminar 4:
+What tools are available for requirements management?
+Some of the tools available for requirements management are:
+IBM Rational Doors
+Jira
+Jama
+Kovair ALM studio
+Mingle
+
 
 
 
