@@ -189,7 +189,7 @@ Phase 4- Road map implementation and adjustment
 This phase includes two steps launching the road map and putting in place tracking systems. The final road map outlines a set of priorities such as research projects, technology demonstrations, policy advances, regulatory changes and financial commitments. It also includes monitoring the progress and adjusting the road map.   
 
 Tools available for continuous integration:
-Continuous integration is an integral part of agile software development setup. Some of the open source tools available for continuous integration are listed below.
+Continuous integration is an integral part of agile software development setup where members of a team integrate their work frequently. Usually each person integrates daily leading to multiple integrations per day. Some of the open source tools available for continuous integration are listed below.
 Jenkins
 Buildbot
 Travis CI
