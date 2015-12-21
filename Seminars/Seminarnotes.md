@@ -186,7 +186,17 @@ Setting a vision is the process of defining the desired pathway for a technology
 Phase 3-Roadmap development
 The roadmap development phase begins once the vision is established.  This phase includes some important activities such as holding road map workshops, preparing the draft road map document, conducting a roadmap review.  
 Phase 4- Road map implementation and adjustment 
-This phase includes two steps launching the road map and putting in place tracking systems. The final road map outlines a set of priorities such as research projects, technology demonstrations, policy advances, regulatory changes and financial commitments. It also includes monitoring the progress and adjusting the road map.    
+This phase includes two steps launching the road map and putting in place tracking systems. The final road map outlines a set of priorities such as research projects, technology demonstrations, policy advances, regulatory changes and financial commitments. It also includes monitoring the progress and adjusting the road map.   
+
+Tools available for continuous integration:
+Continuous integration is an integral part of agile software development setup. Some of the open source tools available for continuous integration are listed below.
+Jenkins
+Buildbot
+Travis CI
+Strider
+Go
+Integrity
+
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
