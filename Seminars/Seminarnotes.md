@@ -201,6 +201,13 @@ Customer Value Analysis:
 CVA is an innovative research technique that determines how an organization is viewed relative to others in a market place and helps to develop a quantitative picture of the markets in which the organisation compete. Customer value has recently become an essential and important element of a firm’s competitive strategy. Hence the creation of superior customer value is a key element for ensuring corporate success [3]. 
 It includes opinions of both customers and competitor’s customers so that the product’s relative performance can be assessed which helps to provide more accurate and usable information for planning and strategic positioning purposes.  
 In general, customers choose suppliers who offer them the best value and most useful benefits at the most reasonable prices. Customer Value is a choice model which shows how customers select between competing suppliers.
+The main activities performed by a company through this analysis are:
+1.Identify the attributes that matters to its customers and to the competitors’ customers.
+2.Show exactly how these attributes are defined by the customers.
+3.Quantify the company’s performance and the competitors’ performance.
+4.Show corresponding prepositions of different customers and what can be done according to this.
+5.Provide a fact based, data driven system for making decisions.
+6.Provide ways to overcome the competition and tracking ongoing progress.
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
