@@ -200,12 +200,13 @@ Integrity
 Customer Value Analysis:
 CVA is an innovative research technique that determines how an organization is viewed relative to others in a market place and helps to develop a quantitative picture of the markets in which the organisation compete. Customer value has recently become an essential and important element of a firm’s competitive strategy. Hence the creation of superior customer value is a key element for ensuring corporate success [3]. 
 It includes opinions of both customers and competitor’s customers so that the product’s relative performance can be assessed which helps to provide more accurate and usable information for planning and strategic positioning purposes.  
-
+In general, customers choose suppliers who offer them the best value and most useful benefits at the most reasonable prices. Customer Value is a choice model which shows how customers select between competing suppliers.
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
 [2]	Sungjoo Lee and Yongtae Park, “Customization of technology roadmaps according to roadmapping purposes: Overall process and detailed modules,” Technol. Forecast. Soc. Change, vol. 72, no. 5, pp. 567–83, Jun. 2005.
 [3]     W. S. DeSarbo, P. Ebbes, D. K. H. Fong, and C. C. Snow, “Revisiting customer value analysis in a heterogeneous market,” J. Model. Manag., vol. 5, no. 1, pp. 8–24, 2010.
+
 Seminar 4:
 What tools are available for requirements management?
 Some of the tools available for requirements management are:
