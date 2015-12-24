@@ -210,7 +210,14 @@ The main activities performed by a company through this analysis are:
 6.Provide ways to overcome the competition and tracking ongoing progress.
 
 Technical product management:
-Product management is one of the important organisation roles. It is the process of collecting and using data on the products that a business or organization sells handles or makes. 
+Product management is one of the important organisation roles. It is the process of collecting and using data on the products that a business or organization sells handles or makes. Product management process can be handled by the project managers in companies. Some product managers have natural affinity for working with development, some for sales and marketing and some others prefer for work on business issues. Among these, technology expertise plays an important role and deals about how the product works. The product managers pick up a deep understanding of the product and its technological capabilities. The term technical project management describes a person, not a role. It implies that it does not describe a product manager who needs to actually perform technical tasks (software architecting and coding), but they need to perform product management role in close coordination with the technical team. Technical product managers should have strong technical background and this position generally involves close interaction with development leads, product architects and key customers. 
+The activities to be performed by a technical manager include:
+1. Conducting technology assessments.
+2. Analysing the competitive overlook.
+3. Maintaining the product portfolio landscape.
+4. Monitoring and organising industry innovations.
+5. Writing product requirements and use case scenarios.
+6. Maintaining a status dash board for all the portfolio products.  
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
