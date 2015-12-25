@@ -220,7 +220,7 @@ The activities to be performed by a technical manager include:
 6. Maintaining a status dash board for all the portfolio products.  
 
 Internal value analysis (IVA):
-It is defined as a method which is used to measure whether a product in a company is in line with its strategies or not [4].
+It is defined as a method which is used to measure whether a product in a company is in line with its strategies or not by taking limited resources and other products into account [4].
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
