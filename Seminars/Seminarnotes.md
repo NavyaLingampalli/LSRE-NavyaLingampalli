@@ -219,11 +219,14 @@ The activities to be performed by a technical manager include:
 5. Writing product requirements and use case scenarios.
 6. Maintaining a status dash board for all the portfolio products.  
 
+Internal value analysis (IVA):
+It is defined as a method which is used to measure whether a product in a company is in line with its strategies or not [4].
+
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
 [2]	Sungjoo Lee and Yongtae Park, “Customization of technology roadmaps according to roadmapping purposes: Overall process and detailed modules,” Technol. Forecast. Soc. Change, vol. 72, no. 5, pp. 567–83, Jun. 2005.
 [3]     W. S. DeSarbo, P. Ebbes, D. K. H. Fong, and C. C. Snow, “Revisiting customer value analysis in a heterogeneous market,” J. Model. Manag., vol. 5, no. 1, pp. 8–24, 2010.
-
+[4]   T. Gorschek and A. M. Davis, “Requirements engineering: In search of the dependent variables,” Inf. Softw. Technol., vol. 50, no.1–2, pp. 67–75, 2008.
 Seminar 4:
 What tools are available for requirements management?
 Some of the tools available for requirements management are:
