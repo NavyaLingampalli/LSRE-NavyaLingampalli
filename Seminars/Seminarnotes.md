@@ -222,6 +222,19 @@ The activities to be performed by a technical manager include:
 Internal value analysis (IVA):
 It is defined as a method which is used to measure whether a product in a company is in line with its strategies or not by taking limited resources and other products into account [4].
 
+Summary of article [J. Karlsson, K. Ryan, “A cost-value approach for prioritizing requirements”, IEEE Software, 1997]:
+
+Authors of this paper argue that meeting needs and expectations of stakeholders is the ultimate goal of any software project that seeks a competitive edge. In order to achieve this objective, stakeholder’s system requirements must be managed accurately. Deciding on which requirements really matters is a difficult task and is also very important because of time and budget constraints. Despite the rapid growth and advancement of requirements engineering research, company managers still do not have simple, effective and industrially proven techniques for prioritization. 
+Requirement prioritization helps companies to make acceptable tradeoffs among conflicting goals (quality, cost and time-to- market) and to allocate resources based on importance of requirements to the project as a whole.
+Hence the authors of this paper have developed an analytical tool for prioritizing requirements based on a cost-value approach. This tool ranks the candidate requirements in two dimensions based on their value to the customer and users, and based on their estimated cost of implementation. And this method is successfully applied in two telecommunication software development companies. 
+Cost-value approach: This approach helps to make the prioritization process simple, fast and yield accurate and trust worthy results. It prioritizes requirements according to their relative cost and value. Cost is the cost of successfully implementing the candidate requirements. In practice, software developers often calculate costs in terms of money. The candidate requirements are investigated through Analytic Hierarchy Process (AHP) which compares the requirements pair wise according to their relative cost and value. Pair wise comparison is chosen because it includes redundancy and is sensitive to judgemental errors. 
+Prioritization of requirements using cost-value approach includes five steps.
+1. First the requirements engineers review all the requirements carefully to ensure that they are stated in an unambiguous way.
+2. Customers and users apply AHP’s pair wise comparison to assess the relative value of candidate requirements.
+3. Relative cost of each candidate requirement is estimated by experienced software engineers using AHP’s pair wise comparison.
+4. Then the software engineers use AHP to calculate relative value and implementation cost of each candidate requirement and plots these values on a cost-value diagram.
+5. Stakeholders use this diagram as a conceptual map for analyzing and discussing the requirements and based on this discussion, software managers prioritize the requirements and decide which requirements should be actually implemented.
+
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
 [2]	Sungjoo Lee and Yongtae Park, “Customization of technology roadmaps according to roadmapping purposes: Overall process and detailed modules,” Technol. Forecast. Soc. Change, vol. 72, no. 5, pp. 567–83, Jun. 2005.
