@@ -14,15 +14,15 @@ Major challenges in large-scale requirements engineering are specified below [1]
 •	Shifting goals
 •	Resource allocation
 •	Time stress
-•	Multiple stakeholder situations
-•	Incompleteness of the available information
-•	Finding right balance between selecting commercial requirements and internal quality requirements
-•	Requirements prioritization
-•	Complex dependencies between requirements
-•	Multi-objective decision problems
-•	Informal Communication
-•	Managing requirements interdependencies 
-•	Cost estimation
+•	Multiple stakeholder situations:As the field of large scale requirements engineering deals with huge markets and large         number of users, multiple stakeholders come into play and needs of all the stakeholders must be met and establish             proper communication must be established among them.   
+•	Incompleteness of the available information:
+•	Finding right balance between selecting commercial requirements and internal quality requirements:
+•	Requirements prioritization: As in the case of large scale requirements engineering, it is not possible to meet all           the requirements by considering available time and budget of the product. Hence suitable prioritization technique is          to be chosen in order to satisfy the needs of customer and users, and also to minimize cost and time of the project.
+•	Complex dependencies between requirements: As there is a large pool of requirements, quite number of interdependencies         will be there between several requirements. These interdependencies must be handled carefully and should be properly          selected to different releases. 
+•	Multi-objective decision problems:
+•	Informal Communication:
+•	Managing requirements interdependencies: 
+•	Cost estimation:
 
 What is the order of magnitude of the number of requirements we are discussing?
 
@@ -243,6 +243,7 @@ References:
 [2]	Sungjoo Lee and Yongtae Park, “Customization of technology roadmaps according to roadmapping purposes: Overall process and detailed modules,” Technol. Forecast. Soc. Change, vol. 72, no. 5, pp. 567–83, Jun. 2005.
 [3]     W. S. DeSarbo, P. Ebbes, D. K. H. Fong, and C. C. Snow, “Revisiting customer value analysis in a heterogeneous market,” J. Model. Manag., vol. 5, no. 1, pp. 8–24, 2010.
 [4]   T. Gorschek and A. M. Davis, “Requirements engineering: In search of the dependent variables,” Inf. Softw. Technol., vol. 50, no.1–2, pp. 67–75, 2008.
+
 Seminar 4:
 What tools are available for requirements management?
 Some of the tools available for requirements management are:
