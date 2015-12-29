@@ -18,11 +18,11 @@ Major challenges in large-scale requirements engineering are specified below [1]
 •	Incompleteness of the available information:
 •	Finding right balance between selecting commercial requirements and internal quality requirements:
 •	Requirements prioritization: As in the case of large scale requirements engineering, it is not possible to meet all           the requirements by considering available time and budget of the product. Hence suitable prioritization technique is          to be chosen in order to satisfy the needs of customer and users, and also to minimize cost and time of the project.
-•	Complex dependencies between requirements: As there is a large pool of requirements, quite number of interdependencies         will be there between several requirements. These interdependencies must be handled carefully and should be properly          selected to different releases. 
+•	Complex dependencies between requirements: 
 •	Multi-objective decision problems:
 •	Informal Communication:
-•	Managing requirements interdependencies: 
-•	Cost estimation:
+•	Managing requirements interdependencies:As there is a large pool of requirements, quite number of interdependencies           will be there between several requirements. These interdependencies must be handled carefully and should be properly          selected to different releases. 
+•	Cost estimation: As the large scale requirements engineering includes continuous flow of requirements, it is difficult         to know which requirements should be included in relation to the cost estimations. The selected requirements should be         in such a way that the budget of the project should not be exceeded. And it is also challenging to determine cost             estimations exactly as there will be many dependencies between the requirements.
 
 What is the order of magnitude of the number of requirements we are discussing?
 
