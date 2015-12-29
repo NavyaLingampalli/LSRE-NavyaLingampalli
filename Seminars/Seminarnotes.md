@@ -9,11 +9,11 @@ The explosion of new ideas is particularly an evitable part of a company that op
 What are the challenges in large-scale requirements engineering?
 
 Major challenges in large-scale requirements engineering are specified below [1] [2]. 
-•	Ill structured problems
-•	Uncertain environments
-•	Shifting goals
-•	Resource allocation
-•	Time stress
+•	Ill structured problems:
+•	Uncertain environments:
+•	Shifting goals:As there is a continuous flow of requirements from multiple stakeholders, there is a chance of shifting         from the goals which leads to the failure of project as the customer needs will not be met.
+•	Resource allocation:It is very challenging to allocate resources for such a large pool of requirements. Inapproriate          allocation of resources to any requirement leads to many problems.
+•	Time stress:
 •	Multiple stakeholder situations:As the field of large scale requirements engineering deals with huge markets and large         number of users, multiple stakeholders come into play and needs of all the stakeholders must be met and establish             proper communication must be established among them.   
 •	Incompleteness of the available information:
 •	Finding right balance between selecting commercial requirements and internal quality requirements:
