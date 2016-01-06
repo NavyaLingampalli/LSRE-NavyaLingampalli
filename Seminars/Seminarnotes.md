@@ -296,6 +296,29 @@ Some of measures for all these five levels have been proposed by other researche
 4. It exposes the fact that at higher levels in the taxonomy, we need to recognize that impacts are multidisciplinary and multi-perspective.
  Al these contributions serve the companies to take care of the dependent variable while the requirement engineering process changes are made and serves as a reference as it presents a clear frame work of all the variables in different views. 
 
+Summary of article (Khurum & Gorschek “A method for early requirements triage and selection utilizing product strategies”).
+This paper evaluates an efficient and effective method that deals with the challenge of over load of the development organisation in the case of market-driven product development due to large number of requirements. A method for early Requirements Triage utility product strategies (MERTS) is built based on the needs identified in literature and industry. This paper includes the evaluation of effectiveness and efficiency through controlled experiment in lab environment with 50 software engineering graduate students as subjects. Evaluation is done by comparing MERTS with natural language (NL) format.
+The authors of this paper argue that the requirements in market driven requirements engineering in contrast to traditional requirements engineering, come from internal sources (like developers, marketing, sales teams and bug reports) and also from external sources (different users, customers from different and multiple market segments and competitors) which results in large and continuous flow of requirements. It threatens to over load development organisations. To reach the optimal strategy for the company, all the factors such as selection, accuracy, scalable and cost effective way of selecting the requirements must be considered. To achieve this, strategic and middle management and technical experts all need to share one vision. This need can be achieved by a method for Early Requirement Triage and selection (MERTS) which combine both strategic and technical perspectives for the formulation of product strategies. MERTS has two main purposes:
+1. It acts as a stepwise guide to create product strategies taking both technical and strategic views into account.
+2. The strategies resulting from MERTS can be used by project managers to efficiently perform requirement triage and requirement selection in a reasonable amount of time.
+MERTS background:
+MERTS is centred on ensuring that the five strategic questions for a product are answered explicitly. The project managers using this method should follow three parts. Each part has several steps.
+Part 1- Early requirement Triage: It provides steps to create an initial product strategy for use in requirement triage.
+A. Specify: Includes specification of the directions of movement for the product deduced from the organisations’ mission statement. It includes answers for three strategic questions:
+1. Where we want to go? 
+2. How to get there?
+3. What will be done?
+for each product. The output of this step is a detailed understanding of goals and objectives associated with a specific product.
+B. Assign weights: The answers from step 1 are assigned weights. The weights are assigned to each of the factors based on their relative importance. 
+C. Compare requirements: Total weights of all requirements are compared against a threshold to select or reject each of the requirements.
+Part 2- Requirements selection for release: After the identification of set of requirements, the next step is when to get there. This can be achieved through 
+(i) Specification of product technology road map
+(ii) Estimating resources        
+ Part 3- Strategic Rationale: Once the strategic questions have been answered, reasoning behind the decisions should be documented.
+In order to implement MERTS, requirements need to be comparable to the formulated strategies. 
+Experiment: The experiment was conducted in an academic setting, with the help of 50 engineering graduate students of BTH. The main aim of the experiment is to compare the efficiency and effectiveness of MERTS with NL format. Subjects are divided into groups and experiment is conducted as one group having product strategy in NL format and another in MERTS format. Each subject was given either NL or MERTS formatted strategy and the strategy detailed goals of new version of a mobile phone targeted for entertainment oriented users in Asian market. Each requirement in the set has at least two levels product and feature, and also divided into functions and each requirement was formulated using attributes like unique id, product level requirement, feature level requirement, function level requirement, component level requirement. Hence this representation reflects the requirement abstraction model. Applicable validity threats i.e. internal validity, construct validity, external validity is also addressed in conducting the experiment. The results of the experiment stated that MERTS is far superior to NL when it comes to strategy formulation and utilization for the purpose of requirement triage. But the only potential drawback is that MERTS seems to be more resource intensive to use. This model takes more time but avoids errors and is a systematic method for thinking and make decisions which is missing with strategies.         
+
+
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
