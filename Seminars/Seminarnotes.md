@@ -9,11 +9,17 @@ The explosion of new ideas is particularly an evitable part of a company that op
 What are the challenges in large-scale requirements engineering?
 
 Major challenges in large-scale requirements engineering are specified below [1] [2]. 
-•	Ill structured problems:
-•	Uncertain environments:
+•	Ill structured problems:Some design methods  require that engineers formulate the requirements and solutions 
+        separately and independently, but this is impossible if design problems are ill-structured. The main characteristics
+        of an ill-structured problem are that the solution space is not well-defined and there is no criterion to test
+        different solutions and decide which is best.
+•	Uncertain environments:Uncertainty comprises both external and internal elements. External uncertainty includes
+        changes in the market, the operating environments, business processes, and threats. Other elements include emerging
+        requirements/expectations, changes in priorities, emerging competitors (including users) and introducing new
+        technologies. Internal uncertainties include program/project execution as well as design, implementation, and
+        performance challenges. 
 •	Shifting goals:As there is a continuous flow of requirements from multiple stakeholders, there is a chance of shifting         from the goals which leads to the failure of project as the customer needs will not be met.
 •	Resource allocation:It is very challenging to allocate resources for such a large pool of requirements. Inapproriate          allocation of resources to any requirement leads to many problems.
-•	Time stress:
 •	Multiple stakeholder situations:As the field of large scale requirements engineering deals with huge markets and large         number of users, multiple stakeholders come into play and needs of all the stakeholders must be met and establish             proper communication must be established among them.   
 •	Incompleteness of the available information:
 •	Finding right balance between selecting commercial requirements and internal quality requirements:
