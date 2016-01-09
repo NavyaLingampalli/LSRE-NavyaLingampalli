@@ -66,20 +66,95 @@ And identified that issue 83 is a sub requirement and enhancement of issue 21 an
 Week:
 
 I found that by adding some extra features to the existing system will increase its usability and started adding new features to the system. I have added three new features 
-1. Automatic logout: The system must automatically logout if the user is not using the system for a long period of time or if the tab/browser is closed #103.
+1. Automatic logout: The system must automatically logout if the user is not using the system for a long period of time or if the tab/browser is closed #103. This requirement serves as a new feature to the system and hence it is labelled as a feature.
 2. Enable and disable option for automatic logout: All the users may not want to automatically logout from the system. Hence an option is provided to enable and disable this feature #104.
 Issue 104 is identified as a sub-requirement and enhancement of issue 103 and they are linked together with enhancement label.
 3. Contact information: Through this feature, all the students must be able to find the list of teachers of all courses and their contact information so that it will be easy for them to contact the required teacher. This can be accessed by providing a separate link #114.
-And this issue is identified as a sub-requirement and enhancement of issue 16 and they are linked together with enhancement label.
+And this issue is identified as an enhancement of issue 16 and they are linked together with enhancement label. In addition, this issue also serves as a new feature and hence I have added feature label to it.
 
 Week:
 
-After adding the new features, I started assigning myself to some issues. The issues assigned by me are issue 15, issue 30, issue 31, issue 57, issue 58, issue 83, issue 84, issue 103, issue 104 and issue 114. I have considered file archive as it seems to be interesting for me to deal with and assigned all the five issues related to it. I have created five of the issues and assigned them to me. So, in total I have assigned 10 issues. 
+After adding the new features, I started assigning myself to some issues. The issues assigned by me are issue 15, issue 30, issue 31, issue 57, issue 58, issue 84, issue 103, issue 104 and issue 114. I have considered file archive as it seems to be interesting for me to deal with and assigned all the five issues (15, 30, 31, 57, and 58) related to it. I have created five of the issues and self assigned four of them (84, 103,104,114). So, in total I have assigned 9 issues.
+ I have assigned issue 84 because it was created by me and also the main requirements of this issue, 31 and 58 are assigned by me. As issue 103 is a new requirement created by me and it has no main requirements, I have assigned it to me and as issue 104 is a sub requirement of 103, it was also assigned by me. Issue 114 is a new feature and is added by me, so I have assigned this issue. I did not assigned issue 83 though it was created by me, as it is a sub requirement of issue 21 and it is already assigned by someone. 
+
+Week:
+After assigning the issues myself, I have to assign milestones for each issue. To do this, all members of the course started discussing about each prioritization technique mentioned in the discussion form. After analysing all the advantages, disadvantages and suitability of all the techniques for release planning assignment, we decided to use grouping technique based on the customer value.
+Description of grouping technique:
+This approach is based on grouping the requirements into different priority groups. Each group represents something that the stakeholders can relate to (e.g. critical, standard, optional), for a reliable classification. However, the requirements in each group have the same priority, which means that each requirement does not get a unique priority. For the release planning assignment, the priority groups are divided based on the MoSCoW technique. In general, the MoSCoW technique is used by analysts and stakeholders for prioritizing requirements in a collaborative fashion. It consists of four priority groups: 
+Must have: Must Haves are features that must be included before the product can be launched. It is good to have clarity on this before a project begins, as this is the minimum scope for the product to be useful.
+Should have: Should Haves are features that are not critical to launch, but are considered to be important and of a high value to the user.
+Could have: Could Haves are features that are nice to have and could potentially be included without incurring too much effort or cost. However, these will be the first features to be removed from scope if the project’s timescales are later at risk.
+Won’t have: Won’t Haves are features that have been requested but are explicitly excluded from scope for the planned duration, and may be included in a future phase of development.
+In addition to the prioritization, roadmap is also established. It includes 6 milestones and the development of entire product would be completed within these milestones.
+
+Week
+In order to set milestones for the issues, the issues are divided into different versions based on its aim as follows:
+Version 0.1:
+Aim: Early version, get the bare minimums up and running so that teachers can at least keep students informed about a course. Hence the most important and basic requirements of the system are assigned to this version. In total, 13 issues were assigned to it and according to MoSCow technique, number of issues assigned in each group are
+Must have: 8
+Should have: 2
+Could have: 1
+Won’t have: 0
+
+Version 0.5:
+Aim: The most important features are available, but perhaps not with full functionality. In total, 32 issues were assigned to it and according to MoSCow technique, number of issues assigned in each group are
+Must have: 10
+Should have: 14
+Could have: 7
+Won’t have: 1
+
+Version 0.8:
+Aim: The Full functionality for the most important features. All features at least partially implemented. In total, 38 issues were assigned to it and according to MoSCow technique, number of issues assigned in each group are
+Must have: 11
+Should have: 14
+Could have: 12
+Won’t have: 1
+
+Version 0.9:
+Aim: All functionality implemented. In total, 13issues were assigned to it and according to MoSCow technique, number of issues assigned in each group are
+Must have: 7
+Should have: 5
+Could have: 1
+Won’t have: 0
+Version 1.0:
+Aim: Bugs addressed and most important feedback from earlier releases taken into account. In total, 3 issues were assigned to it and according to MoSCow technique, number of issues assigned in each group are
+Must have: 3
+Should have: 0
+Could have: 0
+Won’t have: 0
+
+The issues assigned by me are divided into these milestones as follows:
+
+Version 0.5:
+Issue 15 (Course file archive)
+Issue 30 (Add/Remove files to file archive)
+Issue 58 (Access to use course file archive)
+Issue 103 (Automatic logout)
+Issue 114 (Enable and Disable option for logout)
+
+Version 0.8:
+Issue 31(Download files from course file archive)
+Issue 84 (Download files to desired location)
+
+Version 0.9:
+Issue 57(Access to change in course file archive)
+Issue 104(Contact information)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
  
-  
-
-
-
 
