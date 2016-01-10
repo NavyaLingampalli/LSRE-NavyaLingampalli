@@ -158,6 +158,34 @@ Disadvantages:
 2. The framework assumes that each business unit is independent of the others. In some cases, a business unit that is a "dog" may be helping other business units gain a competitive advantage.
 3. The Boston Matrix assumes that the higher your market share the more profitable your product or business unit will be. It also rejects the possibility that a niche product with a low market share can be profitable. In some cases of reality, dogs offer more profits than cash cows.
 
+Summary of article (Wnuk et al. “Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering”):
+
+In the case of large market-driven requirements engineering projects, there is a need to maintain thousands of requirements continuously arriving from multiple sources and hence deciding which requirements should be implemented among them is very challenging. Also these requirements are often inter-related and originate from an increasing numbers of many stakeholders (such as customers, end users, developers, subcontractors, product features). The process of selecting the requirements introduces several challenges such as
+•	Shifting goals
+•	Time stress
+•	Conflicting view points on the value
+•	Uncertain environments  
+Hence to improve the efficiency of decision process, more effort should be dedicated towards decision-making aspect identification. Minimizing the lead time helps the companies to focus their resources on the most profitable functionality and thus it enables them to remain competitive within the rapidly changing software market. Lead time is defined in this article as “the duration between the moment a request was field and the moment the decision was made.” 
+In order to achieve and sustain low decision lead time and to increase the efficiency of decision making, there is a need for better understanding of factors that may affect decision lead time and outcome. Hence the authors of this paper conducted an exploratory two-stage case study that combines statistical analysis of seven possible relationships among decision characteristics at a large company with a survey of industry participants. The goals of this paper are formulated as three research questions and answers to them are obtained through survey and case study. The main goals of this paper include
+1. To find possible factors that may influence the decision outcome
+2. To find possible factors that may influence decision outcome and
+3. To find whether the decision lead time affects the decision outcome. 
+This paper also includes the validation of the results and extension of the analysis and interpretation of the results of related work.
+The authors of this paper identified five important decision characteristics used by the case company.
+1. Lead time
+2. Number of products affected
+3. Release number
+4. Type of customer
+5. Decision outcome  
+However, there is a contradiction between the results of survey and case study. The outcomes of this paper include
+1. There is no significant relationship between the release of the product line that a change impacts and the decision lead time.
+2. The lead time for decisions will be shorter when the change requests are issued by the important customers and they are most likely to be accepted.
+3. The chance of accepting a change request is higher if it affects a greater number of products.
+4. Change requests affecting late releases have a significantly higher probability of acceptance.
+5. The lead time to reject a decision is significantly longer than to accept a decision.
+6. Decisions made late in the release cycle have shorter lead times. 
+7. Decisions affecting late product line platform releases have either shorter or similar lead times than the decisions affecting earlier product line platform releases.  
+
 Seminar 1:
 GAP analysis: 
 It is a process through which a company compares its actual performance with the expected performance in order to determine whether the company is meeting its expectations and utilising the resources effectively.
