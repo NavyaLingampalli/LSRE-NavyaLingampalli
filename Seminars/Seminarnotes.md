@@ -476,6 +476,87 @@ VersionOne
 Rally
 AgileZen
 
+Summary of article (Assessing challenges of continuous integration in the context of software requirements breakdown-a case study): 
+
+In the recent years, software organisations are facing the markets with ever changing requirements and pressure to release more often. Continuous integration deals with this challenge as it is related to the frequency at which new changes are checked in. It also increases the frequency of software releases and shortens the feedback cycle. In the case of performing continuous integration, most of the teams have a fixed window during a sprint where the integration takes place. In order to support more frequent integration, requirements need to be small enough so that the developers can test them separately then integrate them multiple times a day. Hence large requirements should be broken into smaller requirements with right level of detail. A continuous integration system often involves using a continuous integration server that automates the building process. This paper also describes the relationship of continuous integration with other concepts such as
+ 
+1. Lean software development: It has its roots in Toyota Production system and is guided by 7 fundamental principles eliminate waste, amplify learning, decide as late as possible, deliver as fast as possible, empower the team, build integrity in and see the whole.  
+2. Agile methodologies
+3. Continuous development.
+4. Software requirements breakdown: It obey two rules
+•	Any requirement needs to have a connection to a product goal
+•	All the requirements need to be broken down to function level
+
+The main purpose of this study is to identify the challenges of continuous integration and requirements break down and how the latter influences the implementation of a continuous integration process. For this, three research questions are framed and a case study is performed. at Ericsson AB within the serving GPRS support node mobility management entity program. The teams working in this case study uses several branches for integration and development at different quality levels they are
+Work branch (WB): used by team members locally first when a new feature is being developed.
+Latest Local Version (LLV): this branch includes tests that cover expected changes in functionality.
+Pre-Test Build (PTB): full regression tests are run on this branch by.
+Latest Stable Version (LSV): complete system tests are run on this branch.
+
+Through the case study, the authors of this paper identified several challenges faced by the company by using continuous integration, challenges faced through tools and technologies used, challenges associated with testing, challenges related to the suitability of continuous integration, challenges related to understanding of the process and challenges related to code dependencies. All these challenges are presented below.
+
+The challenges that were identified for continuous integration are 
+
+1.	Mindset:  The challenges that are identified related to mindset are 
+•	Scepticism 
+•	Change old habits
+•	Exposing work intention
+
+2.	Tools & Infrastructure: Tools for reviewing code, visualizing regression testing results,  running automated test suites, checking in code. Some of the problems that arise at the time of using this tools and infrastructure are  
+
+•	Code review
+•	Maturity
+•	Regression feedback time
+•	Test automation
+•	Integration queue.
+
+3.	Testing: Challenges associated with this is due to lack of automated tests along with a stable test framework. Some of the challenges related to testing are 
+
+•	Unstable test cases
+•	Too many manual tests
+•	Implementation and test dependencies
+•	Preserving quality
+
+4.	Domain applicability:
+The challenges that are identified because of domain applicability are
+
+•	Process suitability
+•	Product complexity
+
+5.	Understanding: Teams and management might interpret the concept of continuous integration differently. As a result, some challenges are being identified as follows: 
+
+•	Unclear goals
+•	Increased pressure
+•	Different interpretations
+•	Bottom-up approach
+•	Code dependencies: 
+•	code dependencies effects the integration process as follows:
+•	Integration coordination
+•	Dead code
+
+6.	Software requirements: When adopting continuous requirements they are treated as a challenge. The requirements need to be broken in order to allow more frequent integrations. How the software requirements affect the integration process is demonstrated by the challenges as mentioned:
+
+The challenges that are identified because of requirements breakdown are:
+I.	Requirements abstraction: It is very difficult when the requirements are too big, ambiguous or too low. The challenges that are identified related to the requirements abstraction are:
+•	Ambiguous requirements
+•	Large requirements
+•	Low-level requirements
+•	Architectural design
+•	Product complexity
+II.	Alignment of requirements and tests: when integrating requirements into the main line, they need to be associated with tests and aligned properly. The challenges identified related to alignment of requirements and test are 
+III.	Implementation and test case dependencies
+•	Customer value: It is a very process for breaking down requirements into small components by considered the market and customer value. The challenges identified in this area are:
+•	Access to customer
+•	Delivering the customer value
+IV. Guiding principle: Lack of guidance and not having a clear idea on the unified process are identified as the possible reasons for this ambiguity. The challenges associated with this are due to
+•	No unified process
+•	Ongoing responsibility shift
+•	Unfit process
+•	Lack of guidance
+
+Hence this paper serves as a reference for future researchers on continuous integration to identify various challenges practically faced by the companies and also gives a clear idea about on which challenges concentration should be kept more and also gives a clear idea about the relation of continuous integration to other processes.
+
+
 
 
 
