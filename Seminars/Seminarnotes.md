@@ -363,6 +363,33 @@ Based on the interviews of project managers and product managers of 11 companies
 6. One out of five of all QR are dismissed from the projects at some stage during development, with little or no consequence analysis performed.
 2. For B2C, performance requirements are more often dismissed due to the difficulties in proper estimation. And in the case of B2B, QR that are not considered important are often dismissed. 
 3. Poor cost estimation and the fact that QR has lower priority than functional requirements are the main reason for dismissal.
+
+Summary of article (P. Carlshamre, K. Sandahl, M. Lindvall, B. Regnell, J. Natt och Dag,“An industrial survey of requirements interdependencies in software product release planning”, in Proceedings of the fifth IEEE International Symposium on Requirements Engineering, 2001):
+The authors of this paper mainly concentrated on how the interdependencies between different requirements are handled in different companies and to get in-depth knowledge about these dependencies. In the recent years, incremental systems development strategies have become more popular in industries. And the task of scheduling an optimal set of requirements for a particular increment is becoming more complex. The authors of this paper identified 6 different planning parameters that should be considered and satisfied for increment planning.
+1. Available resources
+2. Delivery time
+3. Requirements interdependencies
+4. Requirements priority
+5. System architecture
+6. Dependencies to the code base.
+In general, priority of requirements is a major determinant in increment planning, but it is becoming difficult and sometimes even impossible due to the dependencies between the requirements. There are some examples of research tools that can manage these requirements interactions, but none of them focused on such interactions from release planning perspective. Hence to gain knowledge about requirements interdependencies, a survey is conducted in five companies and the project managers were asked to select 20 high priority requirements each and find interdependencies among them. A simple visualization technique was then applied to the requirements and their interdependencies in the survey.  Among the five selected companies, 3 cases are market-driven and two cases are bespoke.
+ For each pair of requirements, there were a number of considerations to make, resulting in one of the following cases.
+1. No relation is found: In this case, the requirements manager is asked his certainty based on a scale (Possibly, probably, and positively).
+2. A relation was found: In this case, the respondent could choose one of the five types of interdependencies or he can add a new type of dependency if needed.
+The authors identified different types of interdependencies based on previous interviews.
+•	AND
+•	REQUIRES
+•	CVALUE
+•	TEMPORAL
+•	ICOST
+•	OR
+The results of survey stated that all the identified interdependencies were relevant and intelligible and no new interdependency types are discovered in the survey. In general, functional interdependencies should have higher priority than value-related interdependencies.
+The conclusions of the survey stated that
+1. Survey results stated that only about 20% of the requirements are singular.
+2. Relatively few requirements are responsible for a large share of the interdependencies.
+3.  There are more functionality-related interdependencies in a bespoke development situation, whereas there are more value-related interdependencies in a product development situation. 
+4. The visualization technique proved to be very powerful to support reasoning about possible and good ways of partitioning a set of requirements.
+This conclusions of this paper gave scope to many new research ideas. Hence this paper helps to extend the research related to interdependencies among the requirements in MDRE process and also gives a clear idea of how the dependencies are determined practically in the companies. And also gave an idea of how to plan the releases by considering the interdependencies.
    
 Summary of article (Khurum & Gorschek “A method for early requirements triage and selection utilizing product strategies”).
 This paper evaluates an efficient and effective method that deals with the challenge of over load of the development organisation in the case of market-driven product development due to large number of requirements. A method for early Requirements Triage utility product strategies (MERTS) is built based on the needs identified in literature and industry. This paper includes the evaluation of effectiveness and efficiency through controlled experiment in lab environment with 50 software engineering graduate students as subjects. Evaluation is done by comparing MERTS with natural language (NL) format.
