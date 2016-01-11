@@ -116,25 +116,116 @@ In order to compare my work experiences of this implementation, I referred artic
   [2]	T. Gorschek, P. Garre, S. B. M. Larsson, and C. Wohlin, “Industry evaluation of the requirements abstraction model,” Requir. Eng., vol. 12, no. 3, pp. 163–90, Apr. 2007.
 The authors of this article performed case study in two companies by implementing RAM model on their company products and gathered opinions of both the companies about the implementation of this model. The results indicate that implementation of RAM at both these companies has yielded substantial increase in both accuracy and quality of requirements. But the costs and efforts of implementation are increased due to implementation of this process. However as there is increase in the levels of accuracy and quality, it is obvious that the cost and effort should be spent more in order to acquire benefits. And this increase is very moderate in total and can be handled by both the companies. This model is tailorable, maintaining    certain concepts (use of abstraction and attributes) but adaptable enough to fit different environments.  RAM is tool independent, but requires tool support to be scalable and practical. The two companies are developed companies and so it became easy for them to handle the requirements using this model. Through my experiences, I felt the same that handling such a large number of requirements increases cost and effort for the implementation. And since I have considered only three examples it is easy for me to implement this manually, but as MDRE process includes thousands of requirements implementation of this model requires tool support for sure. However the observations through case study may not be accurate as this observation is short term and problems may also arise in later stages of the product development.
 
+Article 2: R. B. Svensson, T. Olsson, and B.Regnell, “Introducing support for release planning of quality requirements - an industrial evaluation of the QUPER model,” in 2008 Second International   Workshop on Software Product Management, 9 Sept. 2008, pp. 1-9.
 
+Description of application of QUPER model:
+Quality performance (QUPER) model supports release planning and road mapping of quality requirements.
+This paper includes application of QUPER model for quality requirements through the following steps:
+1. Identify candidate QR: In this step, quality requirements are identified and the consequences (relevant features, market segment, competitor and hardware platform capability) for that quality requirement is considered.
+2. Define scale and unit: This step includes the defining a scale and a measurement unit which is used to express the level of quality of QR.
+3. Identify reference levels: In this level, identification of reference levels is done for each QR based on actual products. These reference levels can be based on competing products as well as own products. 
+4. Elicit quality breakpoints: After the identification of all the reference levels, the market expectations should be defined in terms of the values of quality breakpoints (utility breakpoint, differentiation breakpoint and saturation breakpoint).
+5. Estimate cost barriers: This step includes the estimations of cost in terms of cost barriers (CB). Although it is possible to identify and estimate one, two, or several CB for each QR, the recommended number of CB is two. 
+6. Set candidate requirements: This step includes estimations of proposed candidate requirements, and decides actual requirements for coming releases, where estimates can be given in three forms. One way to specify a requirements quality interval is by using both a Good and a Stretch target.
+7. Identify cost dependencies: This step includes the identification of potential cost barriers. 
+Reason for selection of this article: 
+As the QUPER model was developed with the aim to support high level decision-making in release planning of quality requirements, it helps the market-driven software products to plan their product releases effectively. This helps them to deliver the products to market as early as possible with a competitive level of quality compared to its competitors’ products. And QUPER is the only method which addresses both the quality and cost constraints of QR. In this paper, in addition to the description of how to apply QUPER model in practice, an extra step i.e. cost dependency step is also added. This helps to effectively handle the cost dependencies between the QRs in practice. I have selected this article for reflective report assignment because after reading the application of QUPER model, I got an idea of how to implement it practically by considering an example and it seems to be interesting and very useful for me. 
 
+Implementation plan: As specified in the description of application of QUPER model above, this model can be performed in seven steps. To make clear that this model is clearly understood by me, I have considered two quality requirements related to the Automated money machine (AMM). This system takes a user transaction as input and sends the information to the central bank account system and receives acknowledgement that the transaction has been processed and responds to the user. And I decided to implement all the seven steps of QUPER model by specifying each quality requirement, determining the reference levels by identifying the competitors’ current position and determining the costs and cost dependencies of each quality requirement. 
 
+Execution and proof of concept: 
+In order to execute the QUPER model, I have considered two quality requirements related to AMM and all the seven steps are performed on them.
 
+Step 1: Identify candidate QR:
+QR1- A competitor recently launched an AMM system with response time of 8 seconds for the requests of the users. 
+QR2- A competitor recently launched an AMM system with Mean Time to Repair (MTTR) within 2 hours. The MTTR is defined as the sum of the time required for fault isolation, correction and restoration to service for each failure divided by the number of failures. 
 
+Step 2: Define scale and unit for each requirement:
+QR1: 
+Scale- Time
+Unit-   Hours
+QR2: 
+Scale- Time
+Unit-   Seconds
 
- 
+Step 3: Identify reference levels: For the two QRs, two reference levels are considered based on competing products. All the values are imaginary.
 
-     
-  
+QR1:
+Feature: AMM system response time.
+Quality Requirement: Time to respond to the banker requests.
+Definition: Number of seconds required by AMM system to respond to the banker requests.
+Reference levels:
+PRODUCT: Competitor X LEVEL:  20 seconds
+PRODUCT: Own product Y LEVEL: 15 seconds
+PRODUCT: Competitor Z LEVEL:  8 seconds
 
+QR2:
+Feature: Mean time to repair the AMM machine if there is any failure.
+Quality Requirement: Mean Time To Repair (MTTR).
+Definition: Mean number of hours required to repair the system. 
+Reference levels:
+PRODUCT: Competitor X LEVEL:  5 hours
+PRODUCT: Own product Y LEVEL: 4 hours
+PRODUCT: Competitor Z LEVEL:  2 hours
 
+Step 4 - Elicit quality breakpoints:
+There are three types of quality breakpoints specified in the QUPER model:
+Utility breakpoint: It is the lowest acceptable value on the market for a given segment.
+Saturation breakpoint: Representing quality levels that are clearly considered excessive by the market.
+The differentiation breakpoint: It is determined somewhere between utility and saturation. Values above this quality level gives market advantage compared to the current products of your competitors.
 
+QR1:
+Utility: 30 seconds                       
+Saturation: 1 second                   
+Differentiation: 10 seconds   
 
+QR2:
+Utility: 10 hours
+Saturation: 0.5 hours                  
+Differentiation: 3 hours
 
+Step 5 - Estimate cost barriers
 
+For this example, two cost barriers were identified. First cost barrier is related to software changes and the second cost barrier is related to new hardware components.
 
+QR1:
+Qref 1: 15 seconds
+Q11:  9 seconds Rationale: new SW architecture needed
+C11: 2 weeks
+Q12: 4 seconds Rationale: new HW component needed
+C12: 6 weeks
 
+QR2:
+Qref 2: 4 hours
+Q21:  3 hours Rationale: new SW architecture needed
+C21: 4 weeks
+Q22: 1.5 hours Rationale: new HW component needed
+C22: 10 weeks
 
-   
+Step 6- Set candidate requirements
+Target:
 
+QR1:
+GOOD: 7 seconds Rationale: will beat most of the competitors
+STRETCH: 5 seconds Rationale: if SW architecture is feasible
 
+QR2:
+GOOD: 3 hours Rationale: will beat most of the competitors
+STRETCH: 2.5 hours Rationale: if SW architecture is feasible
+
+Step 7- Identify cost dependencies.
+I assumed that QR1 and QR2 are dependent to each other i.e. both of them affect the same architectural part and by clearly analysing the cost estimates and importance of both the requirements, I decided to implement QR1 as it is most important and requires less cost when compared to QR2 and effort estimations are made to it in terms of weeks and months. However, in real projects’ context cost dependencies of several QRs are determined and an expert of the company take decisions of selecting a subset of dependent QRs that are easy to implement than the other dependable requirements. Then the effort estimates are calculated for all the requirements in the subset and changes are made by the expert, if obtained effort is higher than the available resources.
+
+Lessons learned: 
+From this article, I have concluded that the organisations often face many challenges to set the right quality for requirements in relation to future market demands and competitor products. The organisations operating on market-driven software product development should plan the product’s releases effectively so that they can reach the market as early as possible with a competitive level of quality compared to the other products and hence quality requirements can be seen as a key competitive advantage in companies. 
+Through the implementation of this model, I got a clear idea of how the quality requirements are specified and how to compare the quality of our own product to the quality other products produced by the competitors. This implementation also helped me to know how to reach the future state from the current state of the product by improving its quality. I also got a clear understanding of the importance of cost, benefit and roadmap view of the QUPER model and the importance of considering cost dependencies while selecting the requirements to different releases. I feel that the application of this model is easy and it gives a clear understanding of how to implement quality requirements practically.
+
+Reflections:
+ In order to compare my work experiences with others, I have selected and gone through another article.
+
+[4]  R. Berntsson Svensson, Y. Sprockel, B. Regnell, and S. Brinkkemper, “Setting quality targets for coming releases with QUPER: an industrial case study,” Requir. Eng., vol. 17, no. 4, pp. 283–98, Nov. 2012.
+
+ The authors of this article conducted case study and evaluated QUPER model practically. Based on their observations, the overall result indicated that QUPER is relevant to early decision-making process and the concepts of breakpoints, competitor analysis, cost barriers and identification of own products quality level provides a greater understanding of the needed level of quality for coming releases. This paper identified two main challenges by using QUPER in practice.
+1. Difficulties to identify and specify the values for the differentiation and saturation breakpoints.
+2. Difficulties in identifying the cost barriers and their values.
+ In my view, the observations derived from my implementation and the observations of the authors of this paper are almost same. However, coming to the discussion of the challenges faced by the authors relating to the identification of values for breakpoints and cost barriers, it is not possible for me to draw exact conclusions about them because I have considered only two quality requirements and all the values taken by me are imaginary. But by referring to this article, I got an idea of difficulty level of identifying these values practically.  
