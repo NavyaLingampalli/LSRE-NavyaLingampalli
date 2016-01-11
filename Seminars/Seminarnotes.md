@@ -384,7 +384,53 @@ Part 2- Requirements selection for release: After the identification of set of r
 (ii) Estimating resources        
  Part 3- Strategic Rationale: Once the strategic questions have been answered, reasoning behind the decisions should be documented.
 In order to implement MERTS, requirements need to be comparable to the formulated strategies. 
-Experiment: The experiment was conducted in an academic setting, with the help of 50 engineering graduate students of BTH. The main aim of the experiment is to compare the efficiency and effectiveness of MERTS with NL format. Subjects are divided into groups and experiment is conducted as one group having product strategy in NL format and another in MERTS format. Each subject was given either NL or MERTS formatted strategy and the strategy detailed goals of new version of a mobile phone targeted for entertainment oriented users in Asian market. Each requirement in the set has at least two levels product and feature, and also divided into functions and each requirement was formulated using attributes like unique id, product level requirement, feature level requirement, function level requirement, component level requirement. Hence this representation reflects the requirement abstraction model. Applicable validity threats i.e. internal validity, construct validity, external validity is also addressed in conducting the experiment. The results of the experiment stated that MERTS is far superior to NL when it comes to strategy formulation and utilization for the purpose of requirement triage. But the only potential drawback is that MERTS seems to be more resource intensive to use. This model takes more time but avoids errors and is a systematic method for thinking and make decisions which is missing with strategies.         
+Experiment: The experiment was conducted in an academic setting, with the help of 50 engineering graduate students of BTH. The main aim of the experiment is to compare the efficiency and effectiveness of MERTS with NL format. Subjects are divided into groups and experiment is conducted as one group having product strategy in NL format and another in MERTS format. Each subject was given either NL or MERTS formatted strategy and the strategy detailed goals of new version of a mobile phone targeted for entertainment oriented users in Asian market. Each requirement in the set has at least two levels product and feature, and also divided into functions and each requirement was formulated using attributes like unique id, product level requirement, feature level requirement, function level requirement, component level requirement. Hence this representation reflects the requirement abstraction model. Applicable validity threats i.e. internal validity, construct validity, external validity is also addressed in conducting the experiment. The results of the experiment stated that MERTS is far superior to NL when it comes to strategy formulation and utilization for the purpose of requirement triage. But the only potential drawback is that MERTS seems to be more resource intensive to use. This model takes more time but avoids errors and is a systematic method for thinking and make decisions which is missing with strategies. 
+
+Summary of article (Regnell & Brinkkemper “Market-Driven Requirements Engineering for Software Products):
+Market-driven software development refers to an increasing part of the software produced which is aimed at being offered to an open marketplace rather than to one specific customer. Market-driven development is different from customer-specific development (bespoke development) in many contexts such as
+1.   In the case of customer driven development, one single customer pays all the development costs and the resulting product is specific to the needs and wishes of that one customer. Whereas in MDRE process, the development costs of products are divided among many buyers on an open market and the potential profit is rewarded to the producer.
+2. The primary objective of market-driven development is to deliver the right product at the right time and in the case of bespoke projects, they often focus on fulfilment of a contract and compliance to a requirements specification.
+3. In MDRE projects, success is determined by sales, market share and product reviews, whether in the case of bespoke projects customer satisfaction and user acceptance determines the success and failure of the project.
+4. Requirements elicitation in MDRE is often devoted to innovation of new requirements combined with market analysis, whereas customer-specific elicitation focuses on collecting information regarding wishes of one organization through conducting interviews with the known users.
+5. Requirements specifications in the MDRE projects are often less formal when compared to bespoke projects.
+6. In bespoke RE, much effort is devoted to negotiation and conflict resolution , while  the MDRE case is more focused on prioritization, cost estimation and release planning.
+7. In the bespoke case, validation can be made continuously through the contacts between the customer and the developers, but in the market-driven case validation is often delayed until a late stage in the development (for example, at expositions during fairs or during beta tests with selected key customers).
+
+The authors of this paper provide an overview of the special characteristics of market-driven requirements engineering and describes the most important challenges of the area. Key elements of market-driven requirements engineering processes are presented together with a definition of process quality. MDRE covers the classical RE activities, such as elicitation, specification, and validation, adapted to the market-driven situation, where a software producer develops a product that is offered to an open market with many customers. Hence it is important for the producer to understand how potential buyers may think in their selection process and produce the products according to their needs. There are a number of variants of software products. This paper provides a classification and some examples of software products based on two dimensions:
+(1) The degree of customization and
+(2) The hardware/software content.
+The degree of customization is divided into three levels.
+1. Generic: Intended to be used as-is, out-of-the-box
+2. Customized: Intended to be useful after it has been tailored to one specific customer’s needs.
+3. Customer specific: the entire product is developed with one particular customer’s wishes in mind.
+
+Hardware and software content is divided into three classes:
+Pure hardware: Denotes products that are fixed through its hardware architecture and contains no software that can make the features of the product flexible.
+Embedded systems: Imply products consisting of both a hardware platform and accompanying embedded software.
+Pure software: denote a product that is completely comprised of software and sold independently of its hardware platform.
+The most important characteristics of a typical MRDE process include
+1.	 The developing organization makes all decisions but also takes all risks.
+2.	 There is a continuous flow of requirements throughout the product lifetime.
+3.	 The requirements volume is potentially very large and continuously growing.
+4.	 A majority of the requirements are informally described.
+5.	 The product is evolving continuously and delivered in multiple releases.
+6.	 Release planning focuses on time-to-market and return-on-investment.
+
+A survey is conducted and some challenges are identified in MDRE process:
+1. Balancing market pull and technology push.
+2. Chasm between marketing and development.
+3. Organizational instability and market turbulence.
+4. Simple tools for basic needs.
+5. Requirements dependencies.
+6.  Cost-value-estimation and release planning.
+7. Overloaded Requirements Management.
+
+When designing an MDRE process for a specific company many situational factors that determine what the best concrete process implementation is. 
+Such factors include: Type of development process, type of distribution channels, price and licensing policy, type of market, what is the distinguishing customer value, product complexity, nature of competition, customer behaviour, requirements on product flexibility and adaptability, user interface complexity, predictions on sales and sales channels.
+There will be a continuous flow of requirements in the case of MDRE throughout the entire product cycle. Hence to handle such situations, the authors in this paper specified two modes:
+Continuous mode and release mode. And to plan the requirements effectively road map should be created to plan different releases. A roadmap is a document that provides a layout of the product releases to come over a time frame of three to five years.
+Hence this paper provides a detailed explanation of how the requirements are processed and handled in market-driven companies, various challenges faced by the companies and also some methods to handle such a large pool of requirements. 
+
 
 References:
 [1]	J. Moratalla, V. de Castro, M. L. Sanz, and E. Marcos, “A gap-analysis-based framework for evolution and modernization: modernization of domain management at Red.es,” in 2012 Annual SRII Global Conference (SRII), 24-27 July 2012, 2012, pp. 343–52.
