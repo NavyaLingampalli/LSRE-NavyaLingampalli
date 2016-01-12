@@ -204,6 +204,75 @@ The case company selected by the authors in this article has around 5000 employe
 3. Interview results were validated by practitioners of same company.
 In total, five assumed causes were presented as continuous requirements inflow via multiple channels, overview of software resource availability, low development teams involvement in early phases, requirements not agreed with development teams, detailed requirements specification is produced. The results stated that almost all the causes were appropriate and two extra causes were identified, root causes and effects are also determined and listed. Each effect, cause and root cause are explained clearly. Interviews are also conducted how the addition of agile practices influence the causes and effects of over scoping. The results stated that all the agile practices introduced showed positive impacts to reduce the causes and effects of over scoping. Additional agile practices are also suggested by some of the practitioners. 
 
+Summary of article (P. Carlshamre, K. Sandahl, M. Lindvall, B. Regnell, J. Natt och Dag,“An industrial survey of requirements interdependencies in software product release planning”, in Proceedings of the fifth IEEE International Symposium on Requirements Engineering, 2001):
+The authors of this paper mainly concentrated on how the interdependencies between different requirements are handled in different companies and to get in-depth knowledge about these dependencies. In the recent years, incremental systems development strategies have become more popular in industries. And the task of scheduling an optimal set of requirements for a particular increment is becoming more complex. The authors of this paper identified 6 different planning parameters that should be considered and satisfied for increment planning.
+1. Available resources
+2. Delivery time
+3. Requirements interdependencies
+4. Requirements priority
+5. System architecture
+6. Dependencies to the code base.
+In general, priority of requirements is a major determinant in increment planning, but it is becoming difficult and sometimes even impossible due to the dependencies between the requirements. There are some examples of research tools that can manage these requirements interactions, but none of them focused on such interactions from release planning perspective. Hence to gain knowledge about requirements interdependencies, a survey is conducted in five companies and the project managers were asked to select 20 high priority requirements each and find interdependencies among them. A simple visualization technique was then applied to the requirements and their interdependencies in the survey.  Among the five selected companies, 3 cases are market-driven and two cases are bespoke.
+ For each pair of requirements, there were a number of considerations to make, resulting in one of the following cases.
+1. No relation is found: In this case, the requirements manager is asked his certainty based on a scale (Possibly, probably, and positively).
+2. A relation was found: In this case, the respondent could choose one of the five types of interdependencies or he can add a new type of dependency if needed.
+The authors identified different types of interdependencies based on previous interviews.
+•	AND
+•	REQUIRES
+•	CVALUE
+•	TEMPORAL
+•	ICOST
+•	OR
+The results of survey stated that all the identified interdependencies were relevant and intelligible and no new interdependency types are discovered in the survey. In general, functional interdependencies should have higher priority than value-related interdependencies.
+The conclusions of the survey stated that
+1. Survey results stated that only about 20% of the requirements are singular.
+2. Relatively few requirements are responsible for a large share of the interdependencies.
+3.  There are more functionality-related interdependencies in a bespoke development situation, whereas there are more value-related interdependencies in a product development situation. 
+4. The visualization technique proved to be very powerful to support reasoning about possible and good ways of partitioning a set of requirements.
+This conclusions of this paper gave scope to many new research ideas. Hence this paper helps to extend the research related to interdependencies among the requirements in MDRE process and also gives a clear idea of how the dependencies are determined practically in the companies. And also gave an idea of how to plan the releases by considering the interdependencies.
+
+Summary of article (Regnell & Brinkkemper “Market-Driven Requirements Engineering for Software Products):
+Market-driven software development refers to an increasing part of the software produced which is aimed at being offered to an open marketplace rather than to one specific customer. Market-driven development is different from customer-specific development (bespoke development) in many contexts such as
+1.   In the case of customer driven development, one single customer pays all the development costs and the resulting product is specific to the needs and wishes of that one customer. Whereas in MDRE process, the development costs of products are divided among many buyers on an open market and the potential profit is rewarded to the producer.
+2. The primary objective of market-driven development is to deliver the right product at the right time and in the case of bespoke projects, they often focus on fulfilment of a contract and compliance to a requirements specification.
+3. In MDRE projects, success is determined by sales, market share and product reviews, whether in the case of bespoke projects customer satisfaction and user acceptance determines the success and failure of the project.
+4. Requirements elicitation in MDRE is often devoted to innovation of new requirements combined with market analysis, whereas customer-specific elicitation focuses on collecting information regarding wishes of one organization through conducting interviews with the known users.
+5. Requirements specifications in the MDRE projects are often less formal when compared to bespoke projects.
+6. In bespoke RE, much effort is devoted to negotiation and conflict resolution , while  the MDRE case is more focused on prioritization, cost estimation and release planning.
+7. In the bespoke case, validation can be made continuously through the contacts between the customer and the developers, but in the market-driven case validation is often delayed until a late stage in the development (for example, at expositions during fairs or during beta tests with selected key customers).
+The authors of this paper provide an overview of the special characteristics of market-driven requirements engineering and describes the most important challenges of the area. Key elements of market-driven requirements engineering processes are presented together with a definition of process quality. MDRE covers the classical RE activities, such as elicitation, specification, and validation, adapted to the market-driven situation, where a software producer develops a product that is offered to an open market with many customers. Hence it is important for the producer to understand how potential buyers may think in their selection process and produce the products according to their needs. There are a number of variants of software products. This paper provides a classification and some examples of software products based on two dimensions:
+(1) The degree of customization and
+(2) The hardware/software content.
+The degree of customization is divided into three levels.
+1. Generic: Intended to be used as-is, out-of-the-box
+2. Customized: Intended to be useful after it has been tailored to one specific customer’s needs.
+3. Customer specific: the entire product is developed with one particular customer’s wishes in mind.
+Hardware and software content is divided into three classes:
+Pure hardware: Denotes products that are fixed through its hardware architecture and contains no software that can make the features of the product flexible.
+Embedded systems: Imply products consisting of both a hardware platform and accompanying embedded software.
+Pure software: denote a product that is completely comprised of software and sold independently of its hardware platform.
+The most important characteristics of a typical MRDE process include
+1.	 The developing organization makes all decisions but also takes all risks.
+2.	 There is a continuous flow of requirements throughout the product lifetime.
+3.	 The requirements volume is potentially very large and continuously growing.
+4.	 A majority of the requirements are informally described.
+5.	 The product is evolving continuously and delivered in multiple releases.
+6.	 Release planning focuses on time-to-market and return-on-investment.
+A survey is conducted and some challenges are identified in MDRE process:
+1. Balancing market pull and technology push.
+2. Chasm between marketing and development.
+3. Organizational instability and market turbulence.
+4. Simple tools for basic needs.
+5. Requirements dependencies.
+6.  Cost-value-estimation and release planning.
+7. Overloaded Requirements Management.
+When designing an MDRE process for a specific company many situational factors that determine what the best concrete process implementation is. 
+Such factors include: Type of development process, type of distribution channels, price and licensing policy, type of market, what is the distinguishing customer value, product complexity, nature of competition, customer behaviour, requirements on product flexibility and adaptability, user interface complexity, predictions on sales and sales channels.
+There will be a continuous flow of requirements in the case of MDRE throughout the entire product cycle. Hence to handle such situations, the authors in this paper specified two modes:
+Continuous mode and release mode. And to plan the requirements effectively road map should be created to plan different releases. A roadmap is a document that provides a layout of the product releases to come over a time frame of three to five years.
+Hence this paper provides a detailed explanation of how the requirements are processed and handled in market-driven companies, various challenges faced by the companies and also some methods to handle such a large pool of requirements. 
+
+   
 Seminar 1:
 GAP analysis: 
 It is a process through which a company compares its actual performance with the expected performance in order to determine whether the company is meeting its expectations and utilising the resources effectively.
@@ -364,33 +433,7 @@ Based on the interviews of project managers and product managers of 11 companies
 2. For B2C, performance requirements are more often dismissed due to the difficulties in proper estimation. And in the case of B2B, QR that are not considered important are often dismissed. 
 3. Poor cost estimation and the fact that QR has lower priority than functional requirements are the main reason for dismissal.
 
-Summary of article (P. Carlshamre, K. Sandahl, M. Lindvall, B. Regnell, J. Natt och Dag,“An industrial survey of requirements interdependencies in software product release planning”, in Proceedings of the fifth IEEE International Symposium on Requirements Engineering, 2001):
-The authors of this paper mainly concentrated on how the interdependencies between different requirements are handled in different companies and to get in-depth knowledge about these dependencies. In the recent years, incremental systems development strategies have become more popular in industries. And the task of scheduling an optimal set of requirements for a particular increment is becoming more complex. The authors of this paper identified 6 different planning parameters that should be considered and satisfied for increment planning.
-1. Available resources
-2. Delivery time
-3. Requirements interdependencies
-4. Requirements priority
-5. System architecture
-6. Dependencies to the code base.
-In general, priority of requirements is a major determinant in increment planning, but it is becoming difficult and sometimes even impossible due to the dependencies between the requirements. There are some examples of research tools that can manage these requirements interactions, but none of them focused on such interactions from release planning perspective. Hence to gain knowledge about requirements interdependencies, a survey is conducted in five companies and the project managers were asked to select 20 high priority requirements each and find interdependencies among them. A simple visualization technique was then applied to the requirements and their interdependencies in the survey.  Among the five selected companies, 3 cases are market-driven and two cases are bespoke.
- For each pair of requirements, there were a number of considerations to make, resulting in one of the following cases.
-1. No relation is found: In this case, the requirements manager is asked his certainty based on a scale (Possibly, probably, and positively).
-2. A relation was found: In this case, the respondent could choose one of the five types of interdependencies or he can add a new type of dependency if needed.
-The authors identified different types of interdependencies based on previous interviews.
-•	AND
-•	REQUIRES
-•	CVALUE
-•	TEMPORAL
-•	ICOST
-•	OR
-The results of survey stated that all the identified interdependencies were relevant and intelligible and no new interdependency types are discovered in the survey. In general, functional interdependencies should have higher priority than value-related interdependencies.
-The conclusions of the survey stated that
-1. Survey results stated that only about 20% of the requirements are singular.
-2. Relatively few requirements are responsible for a large share of the interdependencies.
-3.  There are more functionality-related interdependencies in a bespoke development situation, whereas there are more value-related interdependencies in a product development situation. 
-4. The visualization technique proved to be very powerful to support reasoning about possible and good ways of partitioning a set of requirements.
-This conclusions of this paper gave scope to many new research ideas. Hence this paper helps to extend the research related to interdependencies among the requirements in MDRE process and also gives a clear idea of how the dependencies are determined practically in the companies. And also gave an idea of how to plan the releases by considering the interdependencies.
-   
+
 Summary of article (Khurum & Gorschek “A method for early requirements triage and selection utilizing product strategies”).
 This paper evaluates an efficient and effective method that deals with the challenge of over load of the development organisation in the case of market-driven product development due to large number of requirements. A method for early Requirements Triage utility product strategies (MERTS) is built based on the needs identified in literature and industry. This paper includes the evaluation of effectiveness and efficiency through controlled experiment in lab environment with 50 software engineering graduate students as subjects. Evaluation is done by comparing MERTS with natural language (NL) format.
 The authors of this paper argue that the requirements in market driven requirements engineering in contrast to traditional requirements engineering, come from internal sources (like developers, marketing, sales teams and bug reports) and also from external sources (different users, customers from different and multiple market segments and competitors) which results in large and continuous flow of requirements. It threatens to over load development organisations. To reach the optimal strategy for the company, all the factors such as selection, accuracy, scalable and cost effective way of selecting the requirements must be considered. To achieve this, strategic and middle management and technical experts all need to share one vision. This need can be achieved by a method for Early Requirement Triage and selection (MERTS) which combine both strategic and technical perspectives for the formulation of product strategies. MERTS has two main purposes:
@@ -412,51 +455,6 @@ Part 2- Requirements selection for release: After the identification of set of r
  Part 3- Strategic Rationale: Once the strategic questions have been answered, reasoning behind the decisions should be documented.
 In order to implement MERTS, requirements need to be comparable to the formulated strategies. 
 Experiment: The experiment was conducted in an academic setting, with the help of 50 engineering graduate students of BTH. The main aim of the experiment is to compare the efficiency and effectiveness of MERTS with NL format. Subjects are divided into groups and experiment is conducted as one group having product strategy in NL format and another in MERTS format. Each subject was given either NL or MERTS formatted strategy and the strategy detailed goals of new version of a mobile phone targeted for entertainment oriented users in Asian market. Each requirement in the set has at least two levels product and feature, and also divided into functions and each requirement was formulated using attributes like unique id, product level requirement, feature level requirement, function level requirement, component level requirement. Hence this representation reflects the requirement abstraction model. Applicable validity threats i.e. internal validity, construct validity, external validity is also addressed in conducting the experiment. The results of the experiment stated that MERTS is far superior to NL when it comes to strategy formulation and utilization for the purpose of requirement triage. But the only potential drawback is that MERTS seems to be more resource intensive to use. This model takes more time but avoids errors and is a systematic method for thinking and make decisions which is missing with strategies. 
-
-Summary of article (Regnell & Brinkkemper “Market-Driven Requirements Engineering for Software Products):
-Market-driven software development refers to an increasing part of the software produced which is aimed at being offered to an open marketplace rather than to one specific customer. Market-driven development is different from customer-specific development (bespoke development) in many contexts such as
-1.   In the case of customer driven development, one single customer pays all the development costs and the resulting product is specific to the needs and wishes of that one customer. Whereas in MDRE process, the development costs of products are divided among many buyers on an open market and the potential profit is rewarded to the producer.
-2. The primary objective of market-driven development is to deliver the right product at the right time and in the case of bespoke projects, they often focus on fulfilment of a contract and compliance to a requirements specification.
-3. In MDRE projects, success is determined by sales, market share and product reviews, whether in the case of bespoke projects customer satisfaction and user acceptance determines the success and failure of the project.
-4. Requirements elicitation in MDRE is often devoted to innovation of new requirements combined with market analysis, whereas customer-specific elicitation focuses on collecting information regarding wishes of one organization through conducting interviews with the known users.
-5. Requirements specifications in the MDRE projects are often less formal when compared to bespoke projects.
-6. In bespoke RE, much effort is devoted to negotiation and conflict resolution , while  the MDRE case is more focused on prioritization, cost estimation and release planning.
-7. In the bespoke case, validation can be made continuously through the contacts between the customer and the developers, but in the market-driven case validation is often delayed until a late stage in the development (for example, at expositions during fairs or during beta tests with selected key customers).
-
-The authors of this paper provide an overview of the special characteristics of market-driven requirements engineering and describes the most important challenges of the area. Key elements of market-driven requirements engineering processes are presented together with a definition of process quality. MDRE covers the classical RE activities, such as elicitation, specification, and validation, adapted to the market-driven situation, where a software producer develops a product that is offered to an open market with many customers. Hence it is important for the producer to understand how potential buyers may think in their selection process and produce the products according to their needs. There are a number of variants of software products. This paper provides a classification and some examples of software products based on two dimensions:
-(1) The degree of customization and
-(2) The hardware/software content.
-The degree of customization is divided into three levels.
-1. Generic: Intended to be used as-is, out-of-the-box
-2. Customized: Intended to be useful after it has been tailored to one specific customer’s needs.
-3. Customer specific: the entire product is developed with one particular customer’s wishes in mind.
-
-Hardware and software content is divided into three classes:
-Pure hardware: Denotes products that are fixed through its hardware architecture and contains no software that can make the features of the product flexible.
-Embedded systems: Imply products consisting of both a hardware platform and accompanying embedded software.
-Pure software: denote a product that is completely comprised of software and sold independently of its hardware platform.
-The most important characteristics of a typical MRDE process include
-1.	 The developing organization makes all decisions but also takes all risks.
-2.	 There is a continuous flow of requirements throughout the product lifetime.
-3.	 The requirements volume is potentially very large and continuously growing.
-4.	 A majority of the requirements are informally described.
-5.	 The product is evolving continuously and delivered in multiple releases.
-6.	 Release planning focuses on time-to-market and return-on-investment.
-
-A survey is conducted and some challenges are identified in MDRE process:
-1. Balancing market pull and technology push.
-2. Chasm between marketing and development.
-3. Organizational instability and market turbulence.
-4. Simple tools for basic needs.
-5. Requirements dependencies.
-6.  Cost-value-estimation and release planning.
-7. Overloaded Requirements Management.
-
-When designing an MDRE process for a specific company many situational factors that determine what the best concrete process implementation is. 
-Such factors include: Type of development process, type of distribution channels, price and licensing policy, type of market, what is the distinguishing customer value, product complexity, nature of competition, customer behaviour, requirements on product flexibility and adaptability, user interface complexity, predictions on sales and sales channels.
-There will be a continuous flow of requirements in the case of MDRE throughout the entire product cycle. Hence to handle such situations, the authors in this paper specified two modes:
-Continuous mode and release mode. And to plan the requirements effectively road map should be created to plan different releases. A roadmap is a document that provides a layout of the product releases to come over a time frame of three to five years.
-Hence this paper provides a detailed explanation of how the requirements are processed and handled in market-driven companies, various challenges faced by the companies and also some methods to handle such a large pool of requirements. 
 
 
 References:
