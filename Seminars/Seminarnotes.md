@@ -158,6 +158,17 @@ Disadvantages:
 2. The framework assumes that each business unit is independent of the others. In some cases, a business unit that is a "dog" may be helping other business units gain a competitive advantage.
 3. The Boston Matrix assumes that the higher your market share the more profitable your product or business unit will be. It also rejects the possibility that a niche product with a low market share can be profitable. In some cases of reality, dogs offer more profits than cash cows.
 
+How to connect requirements to the architecture?
+In general, requirements are connected to the architecture by using usecase diagrams. These diagrams helps the designers and architect to easily understand and form the design and architecture of the system.
+
+Can you connect all requirements directly? What do you do if you cannot?
+Connecting requirements to architecture can be viewed as a special case of connecting a system’s problem space and its solution space. It is not possible to connect the requirements directly in all cases. In such situations, there are many techniques to connect requirements to the architecture such as 
+1. Use of goal-oriented requirements models to formally generate feature, statechart, and component connector models of a system’s architecture.
+2. A method to produce multi-agent architectures from a specification language that is intended to be used for expressing 
+agent requirements.
+3. Architecture-aware requirements models by applying a taxonomy of architectural dimensions to requirements.
+
+
 Summary of article (Wnuk et al. “Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering”):
 
 In the case of large market-driven requirements engineering projects, there is a need to maintain thousands of requirements continuously arriving from multiple sources and hence deciding which requirements should be implemented among them is very challenging. Also these requirements are often inter-related and originate from an increasing numbers of many stakeholders (such as customers, end users, developers, subcontractors, product features). The process of selecting the requirements introduces several challenges such as
