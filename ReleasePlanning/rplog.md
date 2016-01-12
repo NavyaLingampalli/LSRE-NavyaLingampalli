@@ -55,15 +55,12 @@ Article [4] helped me to know how to link the requirements at lower level (compo
 Week 49:
 
 After analyzing the replies and articles carefully, I started linking the requirements to each other. I found some of the main requirements have sub-requirements and identified them by applying my knowledge gained from the literature I have studied before. I found that issue 43, issue 45 and issue 66 are dependent on issue 20 and are sub requirements of issue 20.  In order to link sub requirements to the main requirement, I found that few labels are provided in GitHub and started linking the requirements using duplicate label. But after receiving the feedback, have realized that the sub requirements are not duplicates to the main requirement and they are clarifications of the main requirement. To make this clearer, I gained knowledge about the usage and meaning of all the labels and how to link sub requirements to main requirements.   
-
-Week:
-
 After knowing how to link the requirements and assign labels to the requirements, I started adding new features. I have added two new issues which are sub requirements of existing requirements. The issues are:
 1. Download files to desired location: It must be able to the participants to save downloaded files in desired location each time the download button is clicked #84.
 2. Download examination forms: Users must be able to download examination forms of a particular course from the course information page #83. 
 And identified that issue 83 is a sub requirement and enhancement of issue 21 and issue 84 is a sub requirement and enhancement of issue 31 and issue 58. I linked the corresponding requirements with enhancement labels.
 
-Week:
+Week 50:
 
 I found that by adding some extra features to the existing system will increase its usability and started adding new features to the system. I have added three new features 
 1. Automatic logout: The system must automatically logout if the user is not using the system for a long period of time or if the tab/browser is closed #103. This requirement serves as a new feature to the system and hence it is labelled as a feature.
@@ -71,13 +68,10 @@ I found that by adding some extra features to the existing system will increase 
 Issue 104 is identified as a sub-requirement and enhancement of issue 103 and they are linked together with enhancement label.
 3. Contact information: Through this feature, all the students must be able to find the list of teachers of all courses and their contact information so that it will be easy for them to contact the required teacher. This can be accessed by providing a separate link #114.
 And this issue is identified as an enhancement of issue 16 and they are linked together with enhancement label. In addition, this issue also serves as a new feature and hence I have added feature label to it.
-
-Week:
-
 After adding the new features, I started assigning myself to some issues. The issues assigned by me are issue 15, issue 30, issue 31, issue 57, issue 58, issue 84, issue 103, issue 104 and issue 114. I have considered file archive as it seems to be interesting for me to deal with and assigned all the five issues (15, 30, 31, 57, and 58) related to it. I have created five of the issues and self assigned four of them (84, 103,104,114). So, in total I have assigned 9 issues.
  I have assigned issue 84 because it was created by me and also the main requirements of this issue, 31 and 58 are assigned by me. As issue 103 is a new requirement created by me and it has no main requirements, I have assigned it to me and as issue 104 is a sub requirement of 103, it was also assigned by me. Issue 114 is a new feature and is added by me, so I have assigned this issue. I did not assigned issue 83 though it was created by me, as it is a sub requirement of issue 21 and it is already assigned by someone. 
 
-Week:
+Week 51:
 After assigning the issues myself, I have to assign milestones for each issue. To do this, all members of the course started discussing about each prioritization technique mentioned in the discussion form. After analysing all the advantages, disadvantages and suitability of all the techniques for release planning assignment, we decided to use grouping technique based on the customer value.
 Description of grouping technique:
 This approach is based on grouping the requirements into different priority groups. Each group represents something that the stakeholders can relate to (e.g. critical, standard, optional), for a reliable classification. However, the requirements in each group have the same priority, which means that each requirement does not get a unique priority. For the release planning assignment, the priority groups are divided based on the MoSCoW technique. In general, the MoSCoW technique is used by analysts and stakeholders for prioritizing requirements in a collaborative fashion. It consists of four priority groups: 
@@ -87,7 +81,7 @@ Could have: Could Haves are features that are nice to have and could potentially
 Won’t have: Won’t Haves are features that have been requested but are explicitly excluded from scope for the planned duration, and may be included in a future phase of development.
 In addition to the prioritization, roadmap is also established. It includes 6 milestones and the development of entire product would be completed within these milestones.
 
-Week
+Week 52:
 In order to set milestones for the issues, the issues are divided into different versions based on its aim as follows:
 Version 0.1:
 Aim: Early version, get the bare minimums up and running so that teachers can at least keep students informed about a course. Hence the most important and basic requirements of the system are assigned to this version. In total, 13 issues were assigned to it and according to MoSCow technique, number of issues assigned in each group are
@@ -139,22 +133,3 @@ Issue 84 (Download files to desired location)
 Version 0.9:
 Issue 57(Access to change in course file archive)
 Issue 104(Contact information)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
- 
-
